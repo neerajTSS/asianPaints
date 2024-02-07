@@ -9,15 +9,7 @@
   //Posts an information message to the test log.
   Log.Message("Top 10 Opportunites KPI is Visibile on the Home_page", "");
   //Checks whether the 'contentText' property of the Aliases.browser.pageLogon.FindElement("//div[2]/div/div[contains(@class, 'sapUshellTileContainerContent')]") object equals 'Juggernaut KPI's
-  //Lead from other LOB..
-  //Counter
-  //0
-  //Converted Leads from Other LOB..
-  //Counter
-  //0
-  //Total Potential from Converted Leads
-  //Potential
-  //0'.
+  
   aqObject.CheckProperty(Aliases.browser.pageLogon.FindElement("//div[2]/div/div[contains(@class, 'sapUshellTileContainerContent')]"), "contentText", cmpEqual, "Juggernaut KPI's\nLead from other LOB..\nCounter\n0\nConverted Leads from Other LOB..\nCounter\n0\nTotal Potential from Converted Leads\nPotential\n0");
   //Posts an information message to the test log.
   Log.Message("Key Performance Indicators (KPIs) for \"Juggernaut\" are accessible on the homepage.", "");
