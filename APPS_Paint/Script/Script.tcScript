@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="LoginPage" key="{78260909-9FC5-4D68-AF84-BE7F29712E90}" path="LoginPage.js" />
+		<child name="HomePage" key="{66A7349F-BD57-49C1-8F62-032D4FA6BEF9}" path="HomePage.js" />
+		<child name="LeadCreation" key="{BAB24C13-D6E6-4DE8-85A4-0AF845CEC1DE}" path="LeadCreation.js" />
+		<child name="DropDown" key="{2996004C-075F-4A0F-ABD1-AA0311906FE9}" path="DropDown.js" />
+		<child name="Dropdown_SubSegment" key="{98EE8702-EF22-4A85-9247-194486B86D05}" path="Dropdown_SubSegment.js" />
+	</children>
+</Root>

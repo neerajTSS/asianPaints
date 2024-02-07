@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{97CA15AA-C60E-47E7-B1CF-3382E9EE8E05}">
+	<children>
+		<child name="APPS_Paint" key="{28C8B489-494E-4511-88F0-022DBDF332ED}" path="APPS_Paint\APPS_Paint.mds" />
+	</children>
+	<testItems key="{392D43C3-2D7A-4141-BDB6-B142B201C558}">
+		<children>
+			<testItem key="{28C8B489-494E-4511-88F0-022DBDF332ED}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{DDF28090-37B5-4B3F-9F25-AA31DC8C1BC8}" />
+	<analysis key="{8D5770F7-20B5-4E52-9DE7-D2FC6F6AA15F}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

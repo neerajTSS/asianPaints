@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{6A8E8B65-08B3-4722-83FE-A38206F6A4B7}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+	</TestData>
+	<Variables Version="4" Key="{ADA5BD84-C515-438F-A78A-3C9DA57A294C}">
+		<Items>
+			<Variable Name="Var1" Type="DB Table" Local="False">
+				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+					<ConnectionInfo FileName="..\..\..\..\..\Desktop\PaintRegular.xlsx" Table="Test_Data$" HasColumnNames="True" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{E8809223-A234-4E48-9369-86796B5E6850}" />
+</Root>

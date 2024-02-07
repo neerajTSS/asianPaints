@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" version="15.0">
+	<children>
+		<child name="PaintRegular1" key="{CE87D411-53FA-4BE3-ABEA-BF00B0A498B3}" path="PaintRegular1.tcTbl" />
+		<child name="PaintRegular_SubSegment" key="{ED44BFA1-0C4E-4253-AE12-9791EE65AA80}" path="PaintRegular_SubSegment.tcTbl" />
+	</children>
+</Root>
