@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{FE9F56F2-99FC-4A18-A1BA-95F94502A038}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{CB9DDA75-354B-4262-B65D-4629B5CB598E}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{61F94750-5EC7-4724-87A0-5D5915264C32}">
+								<Image FileName="1450973534" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLogon" Key="{6D6A8B66-9374-4555-ADE0-A599FF2C88F2}">
+								<Image FileName="1450973534" Left="0" Top="151" Right="1920" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://my349520.crm.ondemand.com/sap/ap/ui/clogin*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLoginForm" Key="{FC39CE49-6D70-4B91-A037-CB4A0DA3C88A}">
+										<Image FileName="1450973534" Left="740" Top="273" Right="1180" Bottom="888" />
+										<Selectors>
+											<Selector>
+												<Value Value="#LOGIN_FORM" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;loginForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;User ID&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;clogin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;sapUiSraLoginForm&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;LOGIN_PAGE_FULL&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="userNameBox" Key="{CB9F2A65-169A-46E8-BDCE-17DF435C6423}">
+										<Image FileName="1450973534" Left="791" Top="471" Right="1143" Bottom="503" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;USERNAME_FIELD-inner&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswordFieldInner" Key="{28726EEA-FA46-4EF1-B535-CA36E4F50A20}">
+										<Image FileName="-1859296828" Left="791" Top="570" Right="1143" Bottom="602" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;PASSWORD_FIELD-inner&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLoginLink" Key="{3AFCA9E9-31CA-48C4-9546-5CAF7350AE07}">
+										<Image FileName="-1548570608" Left="773" Top="750" Right="1147" Bottom="800" />
+										<TypeInfo Item0="{8B480ECC-E47D-42B3-8782-ED977C7CB812}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[@id=&apos;LOGIN_LINK&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerMainshellHdr" Key="{67F325B0-0281-4D04-9F11-F1B2ED8F8581}">
+										<Image FileName="-1555314588" Left="0" Top="151" Right="1920" Bottom="221" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mainShell-hdr" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@role=&apos;banner&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;sapUiUfdShellHead&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mainShell&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMenu2" Key="{B17F0BBF-BF56-43CF-9C7D-50EFF82B3793}">
+										<Image FileName="-1555314588" Left="6" Top="151" Right="51" Bottom="221" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[@aria-label=&apos;menu2&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Confirm" Key="{D5E69BA7-9BC5-44B8-94AD-63B6DE668DB2}">
+										<Image FileName="1958002932" Left="671" Top="97" Right="1249" Bottom="348" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Confirm" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonOk" Key="{4775DAC2-E5DD-41B9-B3B7-CDDA4CA5E07D}">
+												<Image FileName="1958002932" Left="990" Top="263" Right="1098" Bottom="312" />
+												<TypeInfo Item0="{C974C487-EE30-4FF8-9B27-2F42DD6EC0C9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="sectionMainshellContainerCanvas" Key="{8831983C-6BDC-4D31-AFC8-7C540AD5B3B6}">
+										<Image FileName="840561298" Left="0" Top="221" Right="1920" Bottom="1020" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mainShell-container-canvas" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Leads&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mainShell-container&apos;]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionPage1Cont" Key="{1BB5FCA4-C082-4183-837D-9AC81D07E0F2}">
+										<Image FileName="840561298" Left="0" Top="281" Right="1920" Bottom="1020" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[contains(.,&apos;Create&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeText128" Key="{AA106D5B-D823-4E36-B675-69C848585081}">
+										<Image FileName="1978622108" Left="425" Top="221" Right="670" Bottom="281" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//section[@role=&apos;main&apos;]//section//div[4]//div[3]//div[3]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@id=&apos;inputfield2nstqsd8nqgWEB0uXLm440_534-content&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionPage2Cont" Key="{71A1B929-0C2E-4671-9CEC-6EC2B7F29A1D}">
+										<Image FileName="-1769095020" Left="0" Top="281" Right="1920" Bottom="970" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;__page2&apos;]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputfield3ee5730797c12a3" Key="{1D0D642B-7645-4720-BC61-38E2ACBA214C}">
+										<Image FileName="-356581849" Left="358" Top="436" Right="931" Bottom="479" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//section[@role=&apos;main&apos;]//section//div//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//div[@title=&apos;Place Name&apos;])[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearchSite" Key="{06D084A2-FF04-4F92-AB7A-0E034B25F50B}">
+										<Image FileName="-1333438841" Left="1713" Top="526" Right="1836" Bottom="571" />
+										<TypeInfo Item0="{8B480ECC-E47D-42B3-8782-ED977C7CB812}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Search Site&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCheckboxewbwz1zzhqgpfwpfpjd" Key="{E729FDA7-BF4E-49D3-BA2D-CA79E7306D6A}">
+										<Image FileName="-1937566483" Left="78" Top="754" Right="101" Bottom="777" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//section[@role=&apos;main&apos;]//section//tr[3]/td//div[contains(@class, &apos;sapMCbBg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@id=&apos;__layout478&apos;]//tr[3]/td/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//section[@role=&apos;main&apos;]//tr[3]/td/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDropdownlistbox8d1033a88e" Key="{EBA5B5BA-5669-4C5B-BF14-530C2937BA1D}">
+										<Image FileName="-1834462303" Left="358" Top="642" Right="883" Bottom="685" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//section[@role=&apos;main&apos;]//section//div[4]//div[6]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//section[@role=&apos;main&apos;]//section//div[4]//div[6]//input[contains(@class, &apos;sapMInputBaseInner&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@id=&apos;__composite13&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="Add selector" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDropdownlistbox2ddc0b2292" Key="{2D71C8CF-516D-48FA-BEDE-A83320C6A6F4}">
+										<Image FileName="-648322745" Left="973" Top="854" Right="1498" Bottom="897" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//section[@role=&apos;main&apos;]//section//div[4]//div[5]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//section[@role=&apos;main&apos;]//section//div[4]//div[5]//input[contains(@class, &apos;sapMInputBaseInner&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@id=&apos;__composite12&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//section[@role=&apos;main&apos;]//section//div[4]//div[5]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSaveAndOpen" Key="{B90C33CC-9DCE-4DA9-9E51-D03C52D3C7A7}">
+										<Image FileName="-1165026137" Left="1608" Top="976" Right="1767" Bottom="1016" />
+										<TypeInfo Item0="{8B480ECC-E47D-42B3-8782-ED977C7CB812}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Save and Open&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContent7" Key="{C4E09894-2403-4951-856A-275A3DC9AC77}">
+										<Image FileName="827432107" Left="25" Top="306" Right="1895" Bottom="945" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//section[@role=&apos;main&apos;]//section//div[4]//div[3]//div[4]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;inputfieldf85ddfb09ad527e3b86d947d12568e6d_5088-inner&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputfieldf85ddfb09ad527e" Key="{96A991B4-79F8-4667-80A5-6D6278F8BF2B}">
+										<Image FileName="1309622046" Left="973" Top="855" Right="1546" Bottom="898" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[@title=&apos;New Lead&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputfield3ee5730797c12a32" Key="{0576DDFC-D4DA-4521-BC97-1EF3258EE6A3}">
+										<Image FileName="1206770340" Left="358" Top="436" Right="931" Bottom="479" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[text()=&apos;291 - Maintenance and Repair&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@class=&apos;sapMSLIDiv&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastPaintingCycle2" Key="{92B63F40-C7EC-4D82-BDE3-1C136FCDFDB2}">
+										<Image FileName="-748024664" Left="358" Top="652" Right="883" Bottom="695" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@aria-labelledby=(//span[.=&apos;Last Painting Cycle&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[13]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[13]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputfielde8lkgqzhyaW9cxb" Key="{CD404601-D2E6-4E27-A488-B6ED024B52C2}">
+										<Image FileName="-1279533438" Left="358" Top="749" Right="931" Bottom="792" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]/div/div/div/div[3]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/div/div[3]//input[contains(@class, &apos;sapMInputBaseInner&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__composite93&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/div/div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDropdownlistboxe9ee13fe51" Key="{1631AB73-54F2-4BCF-99FF-0BA37700AE33}">
+										<Image FileName="1075475731" Left="973" Top="749" Right="1498" Bottom="792" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/div[2]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/div[2]//input[contains(@class, &apos;sapMInputBaseInner&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__composite94&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDropdownlistboxhhqswvqpqa2" Key="{7930A46A-2380-447C-9BF1-05262ACDAE83}">
+										<Image FileName="-910870147" Left="358" Top="640" Right="883" Bottom="683" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[7]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[7]//input[contains(@class, &apos;sapMInputBaseInner&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__composite246&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[7]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDropdownlistboxhamy3gcktq" Key="{4F8C0ECA-CA41-41CA-A00A-8EBEAED67BE2}">
+										<Image FileName="-1389882507" Left="973" Top="640" Right="1498" Bottom="683" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[8]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[8]//input[contains(@class, &apos;sapMInputBaseInner&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__composite247&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[8]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDropdownlistboxkeNo9yheae" Key="{BFF207DA-1597-4330-A881-B70705F1F87B}">
+										<Image FileName="-1433918284" Left="973" Top="561" Right="1498" Bottom="604" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[2]//div[4]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[2]//div[4]//input[contains(@class, &apos;sapMInputBaseInner&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__composite315&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[2]//div[4]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDropdownlistbox2ddc0b22922" Key="{C4C05260-7D7E-4711-9C5D-2D6FC331051D}">
+										<Image FileName="2071962682" Left="973" Top="630" Right="1498" Bottom="673" />
+										<TypeInfo Item0="{06EBD9A3-3EBB-459F-8F9D-63DE9691DFFD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[10]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[10]//input[contains(@class, &apos;sapMInputBaseInner&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__composite687&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[10]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRoadAndBridges" Key="{6B2EC3BA-075D-4551-A6C2-34297187A6E3}">
+										<Image FileName="232776440" Left="980" Top="676" Right="1555" Bottom="926" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Road and Bridges&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeItem279" Key="{AEF786CA-1A3E-4ECF-990E-D9917218F214}">
+										<Image FileName="909783651" Left="971" Top="717" Right="1546" Bottom="767" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__item279" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;PFP&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeItem280" Key="{C6CFBA75-C95C-42B5-9CE2-C75889750B9B}">
+										<Image FileName="235617910" Left="971" Top="767" Right="1546" Bottom="817" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__item280" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Rail &amp; Metro&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeItem281" Key="{83F6527B-3BD1-43DF-B4E8-3858E2004996}">
+										<Image FileName="-1047212066" Left="971" Top="817" Right="1546" Bottom="867" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__item281" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Pre Engineered Buildings&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeItem282" Key="{461D0F39-3F54-449D-9C3B-3F13F4FD7FDE}">
+										<Image FileName="1679865338" Left="971" Top="867" Right="1546" Bottom="917" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__item282" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Buildings &amp; Factories&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRoadAndBridges" Key="{A9FFD9C0-D86B-4D85-A0AD-2DB024A3D331}">
+										<Image FileName="-1198715449" Left="980" Top="693" Right="1555" Bottom="943" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdownlistboxca597c13fe7214b57208b2ec262c7e0e_187-popup-list" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEngineeringContractors" Key="{CDAEB7FF-7CE4-4B84-9DFF-7EA9525EDD2E}">
+										<Image FileName="340362866" Left="980" Top="165" Right="1555" Bottom="652" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[1]/ul[1]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+			<Child Name="Chrome_WidgetWin_1" Key="{CC6275B0-2E04-4692-97EB-A5DC5C4E8313}">
+				<Image FileName="2032294694" Left="9" Top="0" Right="371" Bottom="299" />
+				<Properties>
+					<Property Name="WndClass">
+						<Value Value="Chrome_WidgetWin_1" />
+					</Property>
+					<Property Name="WndCaption">
+						<Value Value="Pradeep and 3 others | Microsoft Teams" />
+					</Property>
+				</Properties>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{CB9DDA75-354B-4262-B65D-4629B5CB598E}">
+			<Child Name="BrowserWindow" Owner="{61F94750-5EC7-4724-87A0-5D5915264C32}" />
+			<Child Name="pageLogon" Owner="{6D6A8B66-9374-4555-ADE0-A599FF2C88F2}">
+				<Child Name="loginForm" Owner="{FC39CE49-6D70-4B91-A037-CB4A0DA3C88A}">
+					<Child Name="userNameBox" Owner="{CB9F2A65-169A-46E8-BDCE-17DF435C6423}" />
+					<Child Name="signInButton" Owner="{3AFCA9E9-31CA-48C4-9546-5CAF7350AE07}" />
+					<Child Name="passwordBox" Owner="{28726EEA-FA46-4EF1-B535-CA36E4F50A20}" />
+				</Child>
+				<Child Name="confirmResubmission" Owner="{D5E69BA7-9BC5-44B8-94AD-63B6DE668DB2}">
+					<Child Name="continueButton" Owner="{4775DAC2-E5DD-41B9-B3B7-CDDA4CA5E07D}" />
+				</Child>
+				<Child Name="menuContainer" Owner="{8831983C-6BDC-4D31-AFC8-7C540AD5B3B6}">
+					<Child Name="leadCreateButton" Owner="{1BB5FCA4-C082-4183-837D-9AC81D07E0F2}" />
+					<Child Name="mobileNumberTextBox" Owner="{AA106D5B-D823-4E36-B675-69C848585081}" />
+					<Child Name="segmentDropdownButton" Owner="{2D71C8CF-516D-48FA-BEDE-A83320C6A6F4}" />
+					<Child Name="subSegmentDropdownButton" Owner="{EBA5B5BA-5669-4C5B-BF14-530C2937BA1D}" />
+					<Child Name="addressCheckBox" Owner="{E729FDA7-BF4E-49D3-BA2D-CA79E7306D6A}" />
+					<Child Name="searchSiteButton" Owner="{06D084A2-FF04-4F92-AB7A-0E034B25F50B}" />
+					<Child Name="placeNameTextBox" Owner="{1D0D642B-7645-4720-BC61-38E2ACBA214C}" />
+					<Child Name="saveAndOpenButton" Owner="{B90C33CC-9DCE-4DA9-9E51-D03C52D3C7A7}" />
+					<Child Name="customerEmailTexBox" Owner="{C4E09894-2403-4951-856A-275A3DC9AC77}" />
+					<Child Name="newLeadText" Owner="{96A991B4-79F8-4667-80A5-6D6278F8BF2B}" />
+					<Child Name="segmentDropdownList" Owner="{0576DDFC-D4DA-4521-BC97-1EF3258EE6A3}" />
+					<Child Name="contectNametTextBox" Owner="{CD404601-D2E6-4E27-A488-B6ED024B52C2}" />
+					<Child Name="jobTitleDropdownButton" Owner="{1631AB73-54F2-4BCF-99FF-0BA37700AE33}" />
+					<Child Name="lastPaintingCycleButton" Owner="{92B63F40-C7EC-4D82-BDE3-1C136FCDFDB2}" />
+					<Child Name="sourceDropdownButton" Owner="{4F8C0ECA-CA41-41CA-A00A-8EBEAED67BE2}" />
+					<Child Name="stageDropdownButton" Owner="{7930A46A-2380-447C-9BF1-05262ACDAE83}" />
+					<Child Name="stateDropdownButton" Owner="{BFF207DA-1597-4330-A881-B70705F1F87B}" />
+					<Child Name="projectTypeDropdownButton" Owner="{C4C05260-7D7E-4711-9C5D-2D6FC331051D}" />
+					<Child Name="subSegmentlist" Owner="{6B2EC3BA-075D-4551-A6C2-34297187A6E3}">
+						<Child Name="textnodeItem279" Owner="{AEF786CA-1A3E-4ECF-990E-D9917218F214}" />
+						<Child Name="textnodeItem280" Owner="{C6CFBA75-C95C-42B5-9CE2-C75889750B9B}" />
+						<Child Name="textnodeItem281" Owner="{83F6527B-3BD1-43DF-B4E8-3858E2004996}" />
+						<Child Name="textnodeItem282" Owner="{461D0F39-3F54-449D-9C3B-3F13F4FD7FDE}" />
+					</Child>
+					<Child Name="list" Owner="{CDAEB7FF-7CE4-4B84-9DFF-7EA9525EDD2E}" />
+				</Child>
+				<Child Name="homePage" Owner="{67F325B0-0281-4D04-9F11-F1B2ED8F8581}">
+					<Child Name="menuButton" Owner="{B17F0BBF-BF56-43CF-9C7D-50EFF82B3793}" />
+				</Child>
+				<Child Name="panelRoadAndBridges" Owner="{A9FFD9C0-D86B-4D85-A0AD-2DB024A3D331}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

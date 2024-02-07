@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{14F8CB11-1C47-4415-82D8-D2240DCC2FAD}">
+	<children>
+		<child name="AsianPaints" key="{78E91290-9526-43F2-9CED-84668193C2F7}" path="AsianPaints.mds" />
+	</children>
+	<testItems key="{9146BC59-E8AB-4C68-A2B8-DD42B86C33D8}">
+		<children>
+			<testItem key="{78E91290-9526-43F2-9CED-84668193C2F7}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{23BA25EB-3B67-47FA-A3D6-2011BB6F480A}" />
+	<analysis key="{4A15C404-5206-4D1C-8E64-03198CAA3E17}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

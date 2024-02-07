@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Login_Page" key="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}" path="Login_Page.js" />
+		<child name="Lead_Page" key="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}" path="Lead_Page.js" />
+		<child name="subSegmentValidation" key="{414F05D7-236B-4299-8FBE-C579951C8FFD}" path="subSegmentValidation.js" />
+		<child name="Home_Page" key="{2237AD35-0AE6-434C-9D23-47903E514ADD}" path="Home_Page.js" />
+	</children>
+</Root>

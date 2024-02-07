@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
-	<children>
-		<child name="Login" key="{0BA2E384-3D03-4244-AA92-20177EC0D321}" path="Login.js" />
-		<child name="HomePage" key="{6638FB44-95DD-4016-8D39-B77E3AF086A1}" path="HomePage.js" />
-		<child name="LogOut" key="{2CAAEA6A-EECB-4BA8-A280-FDA95A0242B3}" path="LogOut.js" />
-		<child name="NewLeadCreationForCP2" key="{03CA8048-C065-46F0-9D34-4BA57609B4CE}" path="NewLeadCreationForCP2.js" />
-	</children>
-</Root>

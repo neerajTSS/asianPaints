@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="panelRoadAndBridges1">
+		<Source Object="Aliases.browser.pageLogon.FindElement(&quot;#dropdownlistboxca597c13fe7214b57208b2ec262c7e0e_187-popup-list&quot;)">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="ByCoordinates" SelectionPreference="NearestToCenter" HasHeader="True">
+				<Rectangle Left="0" Top="0" Right="575" Bottom="250" />
+			</DataExtraction>
+		</Source>
+		<Columns>
+			<Column>Road and Bridges</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">PFP</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Rail &amp; Metro</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Pre Engineered Buildings</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Buildings &amp; Factories</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

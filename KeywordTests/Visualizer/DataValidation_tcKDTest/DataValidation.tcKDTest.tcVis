@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{F18F4186-AFD5-4CA7-9521-9A631A76284F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45328.4586689815" objectName="Aliases.browser.pageLogon.textnodeButton" objectLeft="883" objectTop="627" objectRight="931" objectBottom="670" clickPointX="894" clickPointY="646" imageFileName="tcvi179215032867640.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45328.4587384259" objectName="Aliases.browser.pageLogon.textnode1001Ports.panel2" objectLeft="376" objectTop="570" objectRight="894" objectBottom="591" clickPointX="475" clickPointY="577" imageFileName="tcvi179215564067642.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45328.4587615741" objectName="Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton" objectLeft="973" objectTop="623" objectRight="1498" objectBottom="666" clickPointX="1064" clickPointY="649" imageFileName="tcvi179215825067643.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
