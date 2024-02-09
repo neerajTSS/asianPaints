@@ -393,7 +393,7 @@
 									</Values>
 								</Parameter>
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogon.headerMainshellNRJ.textnodeMenu2;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogon.headerMainshellNRJ.menuNode;" />
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -427,7 +427,7 @@
 									</Values>
 								</Parameter>
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogon.asideMainshellContainerPane.linkLink5;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogon.asideMainshellContainerPane.leadLink;" />
 						</Data>
 					</Operation>
 					<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
@@ -445,7 +445,7 @@
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage3Cont.buttonCreate;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage3Cont.leadCreateButton;" />
 						</Data>
 					</Operation>
 					<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">

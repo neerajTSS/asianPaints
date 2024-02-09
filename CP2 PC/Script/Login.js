@@ -8,7 +8,7 @@
     Aliases.browser.pageLogon.formLoginFormNRJ.textboxUsername.Click();
     Log.Message("Verified clicking the username field.");
     
-    Aliases.browser.pageLogon.formLoginFormNRJ.textboxUsername.Drag(142, 10, -154, -12);
+    //Aliases.browser.pageLogon.formLoginFormNRJ.textboxUsername.Drag(142, 10, -154, -12);
     Aliases.browser.pageLogon.formLoginFormNRJ.textboxUsername.SetText(Project.Variables.Var1.Value("UserName"));
        Log.Message("Verified setting the username: " + username);
     

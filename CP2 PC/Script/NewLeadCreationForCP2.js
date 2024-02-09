@@ -1,114 +1,266 @@
-﻿function Lead_Creation_CP2()
-{
-  //Maximizes the specified Window object.
-  //Aliases.browser.BrowserWindow.Maximize();
-  //Clicks the 'textnodeMenu2' object.
-  Aliases.browser.pageLogon.headerMainshellHdr.textnodeMenu2.Click(20, 33);
-  //Clicks the 'textnodeText14' control.
-  Aliases.browser.pageLogon.asideMainshellContainerPane.headerSales2.textnodeText14.Click();
-  //Clicks the 'linkLink5' link.
-  Aliases.browser.pageLogon.asideMainshellContainerPane.linkLink5.Click();
-  var TimeoutValue;
-  TimeoutValue = Options.Run.Timeout;
-  Options.Run.Timeout = 3000;
-  //Clicks the 'buttonCreate' button.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage3Cont.buttonCreate.ClickButton();
-  //Clicks the 'textbox_PlaceName' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage1Cont.textbox_PlaceName.Click();
-  Options.Run.Timeout = TimeoutValue;
-  //Opens the specified URL in a running instance of the specified browser.
-  Browsers.Item(btChrome).Navigate("https://my349520.crm.ondemand.com/sap/ap/ui/clogin?saml2=disabled&app.component=/SAP_UI_CT/Main/root.uiccwoc&rootWindow=X&redirectUrl=/sap/public/byd/runtime#Nav/1/eyJjb250ZXh0IjpudWxsLCJ0YXJnZXQiOiIvQllEX0NPRC9TYWxlc09uRGVtYW5kL01hcmtldGluZy9Qcm9zcGVjdC9DT0RfTWt0X1Byb3NwZWN0LlFDLnVpY29tcG9uZW50Iiwid2luSWQiOiI0Y2Y3YTAyNWU1OTkyMTJjZTgxYmM3YmE4NDc4NTZiZiJ9");
-  //Maximizes the specified Window object.
-  Aliases.browser.BrowserWindow.Maximize();
-  //Clicks the 'textbox_PlaceName' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage1Cont.textbox_PlaceName.Click();
-  Options.Run.Timeout = 3000;
-  //Sets the text 'Haryana' in the 'textbox_PlaceName' text editor.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage1Cont.textbox_PlaceName.SetText("Haryana");
-  //Clicks the 'button_SearchSite' button.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.button_SearchSite.ClickButton();
-  Options.Run.Timeout = TimeoutValue;
-  //Checks whether the 'VisibleOnScreen' property of the Aliases.browser.pageLogon.FindElement("//section[@role='main']//div[contains(@class, 'sapClientMDiv')]//section/div[contains(@class, 'sapClientMDiv')]//div[contains(@class, 'sapClientMDiv')]//div[contains(@class, 'sapClientMDiv')]/div[contains(@class, 'sapClientMDiv')]") object equals True.
-  aqObject.CheckProperty(Aliases.browser.pageLogon.FindElement("//section[@role='main']//div[contains(@class, 'sapClientMDiv')]//section/div[contains(@class, 'sapClientMDiv')]//div[contains(@class, 'sapClientMDiv')]//div[contains(@class, 'sapClientMDiv')]/div[contains(@class, 'sapClientMDiv')]"), "VisibleOnScreen", cmpEqual, true);
-  //Posts an information message to the test log.
-  Log.Message("MMI Suggested Addresses has been Populated", "");
-  //Clicks the 'panelCheckbox' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage3Cont.panelCheckbox.Click();
-  //Drags the 'DesktopWindowXamlSource' object.
-  Aliases.explorer.wndShell_SecondaryTrayWnd.DesktopWindowXamlSource.Drag(1226, 26, -2, 6);
-  //Opens the specified URL in a running instance of the specified browser.
-  Browsers.Item(btChrome).Navigate("https://my349520.crm.ondemand.com/sap/ap/ui/clogin?saml2=disabled&app.component=/SAP_UI_CT/Main/root.uiccwoc&rootWindow=X&redirectUrl=/sap/public/byd/runtime#Nav/1/eyJjb250ZXh0IjpudWxsLCJ0YXJnZXQiOiIvQllEX0NPRC9TYWxlc09uRGVtYW5kL01hcmtldGluZy9Qcm9zcGVjdC9DT0RfTWt0X1Byb3NwZWN0LlFDLnVpY29tcG9uZW50Iiwid2luSWQiOiI0Y2Y3YTAyNWU1OTkyMTJjZTgxYmM3YmE4NDc4NTZiZiJ9");
-  //Maximizes the specified Window object.
-  Aliases.browser.BrowserWindow.Maximize();
-  //Clicks the 'textnodeButton' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage1Cont.textnodeButton.Click();
-  //Clicks the 'panel241Infrastructure' control.
-  Aliases.browser.pageLogon.textnode1001Ports.panel241Infrastructure.Click();
-  //Clicks the 'textnodeButton2' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage1Cont.textnodeButton2.Click();
-  //Clicks the 'panelControlPanelBoards' control.
-  Aliases.browser.pageLogon.textnodeEngineeringContractors.panelControlPanelBoards.Click();
-  //Clicks the 'textnodeButton3' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage1Cont.textnodeButton3.Click();
-  //Clicks the 'panelCold6Months' control.
-  Aliases.browser.pageLogon.textnodeCold6Months.panelCold6Months.Click();
-  //Maximizes the specified Window object.
-  Aliases.browser.BrowserWindow.Maximize();
-  //Clicks the 'textnodeButton4' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage1Cont.textnodeButton4.Click();
-  //Clicks the 'textnodeItem553' control.
-  Aliases.browser.pageLogon.textnodeApplicatorPaintWpcc.textnodeItem553.Click();
-  //Clicks the 'textnodeButton5' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage1Cont.textnodeButton5.Click();
-  //Clicks the 'panelFreshConstruction' control.
-  Aliases.browser.pageLogon.textnodeFreshConstruction.panelFreshConstruction.Click();
-  //Clicks the 'textnodeOpenPicker' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.textnodeOpenPicker.Click();
-  //Clicks the 'textnode5' control.
-  Aliases.browser.pageLogon.textnode5.Click();
-  //Clicks the 'textboxInputfieldsjuu1vlax4Kcrsu' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.textboxInputfieldsjuu1vlax4Kcrsu.Click();
-  Options.Run.Timeout = 3000;
-  //Sets the text ' NA' in the 'textboxInputfieldsjuu1vlax4Kcrsu' text editor.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.textboxInputfieldsjuu1vlax4Kcrsu.SetText(" NA");
-  Options.Run.Timeout = TimeoutValue;
-  //Clicks the 'textboxInputfielde8lkgqzhyaW9cxb' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.textboxInputfielde8lkgqzhyaW9cxb.Click();
-  //Maximizes the specified Window object.
-  Aliases.browser.BrowserWindow.Maximize();
-  //Clicks the 'textboxInputfielde8lkgqzhyaW9cxb' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.textboxInputfielde8lkgqzhyaW9cxb.Click();
-  //Sets the text 'User' in the 'textboxInputfielde8lkgqzhyaW9cxb' text editor.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.textboxInputfielde8lkgqzhyaW9cxb.SetText("User");
-  //Enters '[Tab]' in the 'textboxInputfielde8lkgqzhyaW9cxb' object.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.textboxInputfielde8lkgqzhyaW9cxb.Keys("[Tab]");
-  //Maximizes the specified Window object.
-  Aliases.browser.BrowserWindow.Maximize();
-  //Clicks the 'textnodeButton10' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.textnodeButton10.Click();
-  //Clicks the 'textnodeItem434' control.
-  Aliases.browser.pageLogon.textnodePainter.textnodeItem434.Click();
-  //Clicks the 'textboxInputfield2nstqsd8nqgweb0' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.textboxInputfield2nstqsd8nqgweb0.Click();
-  //Sets the text '9897098970' in the 'textboxInputfield2nstqsd8nqgweb0' text editor.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionPage2Cont.textboxInputfield2nstqsd8nqgweb0.SetText("9897098970");
-  //Clicks the 'textboxLink966eece3d8ad076de589c' control.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionDetail0Cont.textboxLink966eece3d8ad076de589c.Click();
-  //Sets the text 'xyz@yopmail.com' in the 'textboxLink966eece3d8ad076de589c' text editor.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.sectionDetail0Cont.textboxLink966eece3d8ad076de589c.SetText("xyz@yopmail.com");
-  Options.Run.Timeout = 3000;
-  //Clicks the 'buttonSaveAndOpen' button.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.footerSaveAndOpen.buttonSaveAndOpen.ClickButton();
-  Options.Run.Timeout = 5000;
-  //Clicks the 'buttonClose' button.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.buttonClose.ClickButton();
-  Options.Run.Timeout = TimeoutValue;
-  //Maximizes the specified Window object.
-  Aliases.browser.BrowserWindow.Maximize();
-  Options.Run.Timeout = 5000;
-  //Clicks the 'buttonMboxBtn0' button.
-  Aliases.browser.pageLogon.footerYes.buttonMboxBtn0.ClickButton();
-  //Clicks the 'buttonClose' button.
-  Aliases.browser.pageLogon.sectionMainshellContainerCanvas.buttonClose.ClickButton();
-  Options.Run.Timeout = TimeoutValue;
+﻿﻿function Lead_Page(PlaceName,LastPaintingCycle,CustomerName,CustomerMobileNo,CustomerEmail) {
+ // Click on the lead button
+   Aliases.browser.pageLogon.menuContainer.leadsButton.Click();
+   Log.Message("Verified clicking on the lead button.");
+   Delay(500)
+   aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.leadCreateButton, "title", cmpEqual, "Create");
+   Aliases.browser.pageLogon.leadContainer.leadCreateButton.click();
+   aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.newLeadText, "title", cmpEqual, "New Lead"); 
+ //Clicks the 'placeName' control
+   Aliases.browser.pageLogon.leadContainer.placeNameTextBox.Click();
+   Aliases.browser.pageLogon.leadContainer.placeNameTextBox.SetText(PlaceName);
+   aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.searchSiteButton, "contentText", cmpEqual, "Search Site");
+ //Clicks the 'searchSiteButton' button.
+   Aliases.browser.pageLogon.leadContainer.searchSiteButton.ClickButton();
+   Delay(1000);
+ //Clicks the 'addressCheckBox' control.
+  Aliases.browser.pageLogon.leadContainer.addressCheckBox.Click();
+ //Double-clicks the 'segmentDropdownButton' object.
+   Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Click();
+   Delay(1000);
+
+   Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Keys("[Down]");
+var selectedItemText = Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Text;
+Log.Message("Selected Item: " + selectedItemText);
+
+// Loop through pressing the down arrow key and logging the text
+var numberOfItemsToNavigate = 10; 
+for (var i = 0; i < numberOfItemsToNavigate; i++) {
+    // Simulate pressing the down arrow key
+    Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Keys("[Down]");
+
+    // Log the text of the currently selected item
+    var currentItemText = Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Text;
+    Log.Message("Item " + (i + 1) + ": " + currentItemText);
+
+    // If it's the last iteration, remember the last item's text
+    if (i === numberOfItemsToNavigate - 1) {
+        var lastItemText = currentItemText;
+    }
+}
+// Simulate pressing the Enter key to select the last item
+Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Keys("[Enter]");
+Log.Message("Last item selected: " + lastItemText);
+ Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Click();
+Delay(1000);
+
+// Simulate pressing the down arrow key
+Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Keys("[Down]");
+
+// Log the text of the currently selected item
+var selectedItemText = Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Text;
+Log.Message("Selected Item: " + selectedItemText);
+
+// Loop through pressing the down arrow key and logging the text
+var numberOfItemsToNavigate = 64; 
+var lastItemText;
+for (var i = 0; i < numberOfItemsToNavigate; i++) {
+    Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Keys("[Down]");
+
+    // Log the text of the currently selected item
+    var currentItemText = Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Text;
+    Log.Message("Item " + (i + 1) + ": " + currentItemText);
+
+    // If it's the last iteration, remember the last item's text
+    if (i === numberOfItemsToNavigate - 1) {
+        lastItemText = currentItemText;
+    }
+}
+
+// Simulate pressing the Enter key to select the last item
+Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Keys("[Enter]");
+Log.Message("Last item selected: " + lastItemText);
+
+ // Click and interact with the 'stageDropdownButton'
+InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.stageDropdownButton);
+
+// Function to interact with the dropdown using arrow keys
+function InteractWithDropdown(stageDropdownButton) {
+    stageDropdownButton.Click();
+    Delay(1000);
+
+    // Simulate pressing the down arrow key
+    stageDropdownButton.Keys("[Down]");
+
+    // Log the text of the currently selected item
+    var selectedItemText = stageDropdownButton.Text;
+    Log.Message("Selected Item: " + selectedItemText);
+
+    // Loop through pressing the down arrow key and logging the text
+    var numberOfItemsToNavigate = 3; // Adjust as needed
+    var lastItemText;
+    for (var i = 0; i < numberOfItemsToNavigate; i++) {
+        // Simulate pressing the down arrow key
+        stageDropdownButton.Keys("[Down]");
+
+        // Log the text of the currently selected item
+        var currentItemText = stageDropdownButton.Text;
+        Log.Message("Item " + (i + 1) + ": " + currentItemText);
+
+        // If it's the last iteration, remember the last item's text
+        if (i === numberOfItemsToNavigate - 1) {
+            lastItemText = currentItemText;
+        }
+    }
+
+    // Simulate pressing the Enter key to select the last item
+    stageDropdownButton.Keys("[Enter]");
+    Log.Message("Last item selected: " + lastItemText);
+}
+ // Click and interact with the 'sourceDropdownButton'
+InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.sourceDropdownButton);
+
+// Function to interact with the dropdown using arrow keys
+function InteractWithDropdown(sourceDropdownButton) {
+    sourceDropdownButton.Click();
+    Delay(1000);
+
+    // Simulate pressing the down arrow key
+    sourceDropdownButton.Keys("[Down]");
+
+    // Log the text of the currently selected item
+    var selectedItemText = sourceDropdownButton.Text;
+    Log.Message("Selected Item: " + selectedItemText);
+
+    // Loop through pressing the down arrow key and logging the text
+    var numberOfItemsToNavigate = 16; // Adjust as needed
+    var lastItemText;
+    for (var i = 0; i < numberOfItemsToNavigate; i++) {
+        // Simulate pressing the down arrow key
+        sourceDropdownButton.Keys("[Down]");
+
+        // Log the text of the currently selected item
+        var currentItemText = sourceDropdownButton.Text;
+        Log.Message("Item " + (i + 1) + ": " + currentItemText);
+
+        // If it's the last iteration, remember the last item's text
+        if (i === numberOfItemsToNavigate - 1) {
+            lastItemText = currentItemText;
+        }
+    }
+
+    // Simulate pressing the Enter key to select the last item
+    sourceDropdownButton.Keys("[Enter]");
+    Log.Message("Last item selected: " + lastItemText);
+}
+
+// Click and interact with the 'projectTypeDropdownButton'
+InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.projectTypeDropdownButton);
+
+// Function to interact with the dropdown using arrow keys
+function InteractWithDropdown(projectTypeDropdownButton) {
+    projectTypeDropdownButton.Click();
+    Delay(1000);
+
+    // Simulate pressing the down arrow key
+    projectTypeDropdownButton.Keys("[Down]");
+
+    // Log the text of the currently selected item
+    var selectedItemText = projectTypeDropdownButton.Text;
+    Log.Message("Selected Item: " + selectedItemText);
+
+    // Loop through pressing the down arrow key and logging the text
+    var numberOfItemsToNavigate = 3; // Adjust as needed
+    var lastItemText;
+    for (var i = 0; i < numberOfItemsToNavigate; i++) {
+        // Simulate pressing the down arrow key
+        projectTypeDropdownButton.Keys("[Down]");
+
+        // Log the text of the currently selected item
+        var currentItemText = projectTypeDropdownButton.Text;
+        Log.Message("Item " + (i + 1) + ": " + currentItemText);
+
+        // If it's the last iteration, remember the last item's text
+        if (i === numberOfItemsToNavigate - 1) {
+            lastItemText = currentItemText;
+        }
+    }
+
+    // Simulate pressing the Enter key to select the last item
+    projectTypeDropdownButton.Keys("[Enter]");
+    Log.Message("Last item selected: " + lastItemText);
+}
+ //Clicks the 'lastPaintingCycleButton' control.
+  Aliases.browser.pageLogon.leadContainer.lastPaintingCycleButton.SetText(LastPaintingCycle);
+  // Click and interact with the 'stateDropdownButton'
+InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.stateDropdownButton);
+
+// Function to interact with the dropdown using arrow keys
+function InteractWithDropdown(stateDropdownButton) {
+    stateDropdownButton.Click();
+    Delay(1000);
+
+    // Simulate pressing the down arrow key
+    stateDropdownButton.Keys("[Down]");
+
+    // Log the text of the currently selected item
+    var selectedItemText = stateDropdownButton.Text;
+    Log.Message("Selected Item: " + selectedItemText);
+
+    // Loop through pressing the down arrow key and logging the text
+    var numberOfItemsToNavigate = 38; 
+    var lastItemText;
+    for (var i = 0; i < numberOfItemsToNavigate; i++) {
+        // Simulate pressing the down arrow key
+        stateDropdownButton.Keys("[Down]");
+
+        // Log the text of the currently selected item
+        var currentItemText = stateDropdownButton.Text;
+        Log.Message("Item " + (i + 1) + ": " + currentItemText);
+
+        // If it's the last iteration, remember the last item's text
+        if (i === numberOfItemsToNavigate - 1) {
+            lastItemText = currentItemText;
+        }
+    }
+
+    // Simulate pressing the Enter key to select the last item
+    stateDropdownButton.Keys("[Enter]");
+    Log.Message("Last item selected: " + lastItemText);
+}
+// Click and interact with the 'jobTitleDropdownButton'
+InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.jobTitleDropdownButton);
+
+// Function to interact with the dropdown using arrow keys
+function InteractWithDropdown(jobTitleDropdownButton) {
+    jobTitleDropdownButton.Click();
+    Delay(1000);
+
+    // Simulate pressing the down arrow key
+    jobTitleDropdownButton.Keys("[Down]");
+
+    // Log the text of the currently selected item
+    var selectedItemText = jobTitleDropdownButton.Text;
+    Log.Message("Selected Item: " + selectedItemText);
+
+    // Loop through pressing the down arrow key and logging the text
+    var numberOfItemsToNavigate = 18; // Adjust as needed
+    var lastItemText;
+    for (var i = 0; i < numberOfItemsToNavigate; i++) {
+        // Simulate pressing the down arrow key
+        jobTitleDropdownButton.Keys("[Down]");
+
+        // Log the text of the currently selected item
+        var currentItemText = jobTitleDropdownButton.Text;
+        Log.Message("Item " + (i + 1) + ": " + currentItemText);
+
+        // If it's the last iteration, remember the last item's text
+        if (i === numberOfItemsToNavigate - 1) {
+            lastItemText = currentItemText;
+        }
+    }
+
+    // Simulate pressing the Enter key to select the last item
+    jobTitleDropdownButton.Keys("[Enter]");
+    Log.Message("Last item selected: " + lastItemText);
+}
+//Drags the 'customerEmailTexBox' object.
+ Aliases.browser.pageLogon.leadContainer.contectNametTextBox.SetText(CustomerName);
+  //Drags the 'customerEmailTexBox' object.
+ Aliases.browser.pageLogon.leadContainer.customerEmailTexBox.SetText(CustomerEmail);
+  //Clicks the 'mobileNumberTextBox' control.
+ Aliases.browser.pageLogon.leadContainer.mobileNumberTextBox.SetText(CustomerMobileNo);
+  
+  aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.saveAndOpenButton, "contentText", cmpEqual, "Save and Open");
+  Aliases.browser.pageLogon.leadContainer.saveAndOpenButton.Click();
 }

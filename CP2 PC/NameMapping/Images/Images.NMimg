@@ -2,7 +2,6 @@
 <Root>
 	<Images>
 		<Image File="107792531.png" Checksum="1455169108" />
-		<Image File="109147046.png" Checksum="43744221" />
 		<Image File="116641921.png" Checksum="904900737" />
 		<Image File="120046515.png" Checksum="1718938855" />
 		<Image File="120117078.png" Checksum="-1689471745" />
@@ -29,7 +28,6 @@
 		<Image File="197422593.png" Checksum="-1984610898" />
 		<Image File="197454640.png" Checksum="-1776211023" />
 		<Image File="197454796.png" Checksum="552158071" />
-		<Image File="197454937.png" Checksum="-337594637" />
 		<Image File="198777859.png" Checksum="1317644360" />
 		<Image File="199700312.png" Checksum="-798131372" />
 		<Image File="200139359.png" Checksum="754487279" />
@@ -74,7 +72,6 @@
 		<Image File="274153890.png" Checksum="-1216218730" />
 		<Image File="274154062.png" Checksum="890261737" />
 		<Image File="274154250.png" Checksum="-1292307942" />
-		<Image File="285337953.png" Checksum="-318264864" />
 		<Image File="285338109.png" Checksum="-1722388445" />
 		<Image File="285338421.png" Checksum="118459427" />
 		<Image File="285338578.png" Checksum="1627002301" />
@@ -86,7 +83,6 @@
 		<Image File="285339765.png" Checksum="1343342915" />
 		<Image File="285340046.png" Checksum="1852611813" />
 		<Image File="285340218.png" Checksum="166929087" />
-		<Image File="285340500.png" Checksum="1753185484" />
 		<Image File="285340671.png" Checksum="1071533753" />
 		<Image File="285340828.png" Checksum="827818488" />
 		<Image File="285715875.png" Checksum="510984769" />
@@ -163,5 +159,11 @@
 		<Image File="564298515.png" Checksum="1243546213" />
 		<Image File="564325390.png" Checksum="-529176227" />
 		<Image File="565576781.png" Checksum="1802357618" />
+		<Image File="70178828.png" Checksum="-1115830738" />
+		<Image File="84597000.png" Checksum="-1745407570" />
+		<Image File="88874593.png" Checksum="197329599" />
+		<Image File="89754671.png" Checksum="-143548951" />
+		<Image File="89758125.png" Checksum="-242864739" />
+		<Image File="90444593.png" Checksum="-212237878" />
 	</Images>
 </Root>
