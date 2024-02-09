@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{F6849CC1-38FF-4858-A219-995F1045796D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="validateSubSegmentDropdownWithExcel" Unit="validateSegmentDropdownWithExcel" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{0F1CE659-0436-4ABC-887B-73E97E4E2B22}" />
+</Root>

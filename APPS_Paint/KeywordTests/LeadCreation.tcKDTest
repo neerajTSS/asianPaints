@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{54BC6F4A-0001-41AE-A6BF-C6C3B2FC90F1}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{22DACA78-AAF9-44BC-A644-88A94C7CC7EA}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -30,7 +30,7 @@
 								<Parameter Name="PlaceName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="PlaceName" />
 								<Parameter Name="CustomerName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="CustomerName" />
 								<Parameter Name="CustomerMobileNo" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="MobileNumber" />
-								<Parameter Name="CustomerEmail" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="MobileNumber" />
+								<Parameter Name="CustomerEmail" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="CustomerEmail" />
 							</Parameters>
 						</Data>
 					</Operation>
@@ -38,14 +38,14 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="4" Key="{1BA10ED7-6969-4479-97A7-44C2A41323A2}">
+	<Variables Version="4" Key="{E69ADD39-A0ED-4F54-ADE8-95F6933E432A}">
 		<Items>
 			<Variable Name="Var1" Type="DB Table" Local="False">
 				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-					<ConnectionInfo FileName="..\..\..\..\..\Desktop\PaintRegular.xlsx" Table="Test_Data$" HasColumnNames="True" />
+					<ConnectionInfo FileName="..\PaintRegular.xlsx" Table="Test_Data$" HasColumnNames="True" />
 				</DefValue>
 			</Variable>
 		</Items>
 	</Variables>
-	<Parameters Key="{3F430D26-1A90-4955-B20B-291CE2C0421F}" />
+	<Parameters Key="{B413BB2A-0672-4F5B-8842-A82E2B93807A}" />
 </Root>

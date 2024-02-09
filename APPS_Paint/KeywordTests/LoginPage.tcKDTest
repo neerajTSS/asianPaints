@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{5120FF47-5B0D-4988-B942-10AF3721890F}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{88157427-26B7-4CE5-8127-D3FE37833C7D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -25,14 +25,14 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="4" Key="{331C9F1B-0197-44F3-9D1E-171D512EA6A7}">
+	<Variables Version="4" Key="{FD9D855B-A018-46A4-87BE-4D26B3217C92}">
 		<Items>
 			<Variable Name="Var1" Type="DB Table" Local="False">
 				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-					<ConnectionInfo FileName="..\..\..\..\..\Desktop\PaintRegular.xlsx" Table="Test_Data$" HasColumnNames="True" />
+					<ConnectionInfo FileName="..\PaintRegular.xlsx" Table="Test_Data$" HasColumnNames="True" />
 				</DefValue>
 			</Variable>
 		</Items>
 	</Variables>
-	<Parameters Key="{6364C72B-CD7A-45EA-BC65-2F01C692EC53}" />
+	<Parameters Key="{53472286-3ABF-4583-8F10-8F930BA20DA8}" />
 </Root>

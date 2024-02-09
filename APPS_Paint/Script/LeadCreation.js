@@ -283,8 +283,14 @@ function InteractWithDropdown(stageDropdownButton)
   Aliases.browser.loginPage.dropDownListSource.txtApplicatorPaintWpcc.Click();
 
 //Check that Project Type filed is not empty 
-  
-   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxDropdownFreshConstruction != null)
+ aqUtils.Delay(1000);
+//Click on the Project Type field
+Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxDropdownFreshConstruction.Click();
+//Click on the first value
+Aliases.browser.loginPage.projectTypeDropdownList.txtlFreshConstruction.Click();
+
+ 
+/*   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxDropdownFreshConstruction != null)
    {
     Log.Message("Project Type field is not empty")
    }
@@ -295,7 +301,7 @@ function InteractWithDropdown(stageDropdownButton)
   Aliases.browser.loginPage.projectTypeDropdownList.txtlFreshConstruction.Click();
   Log.Message("Project Type field is empty")
       }  
-      
+ */     
 //Check that Parent Account filed is not empty 
   
    if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxParrentAccount != null)
@@ -305,9 +311,12 @@ function InteractWithDropdown(stageDropdownButton)
   else{
     Log.Message("Parent Account field is empty")
       } 
-            
+  
+      aqUtils.Delay(1000);          
 //Click on the Address Line 1
-if(Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1 != null)
+Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1.Click();
+Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1.SetText("XYZ");
+/*if(Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1 != null)
 {
   Log.Message("Address Line 1 is not empty")
 }
@@ -315,7 +324,7 @@ else
 {
   Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1SetText(" XYZ");
 }
-   
+*/   
 //Check that City filed is not empty 
   
    if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxCity != null)
@@ -444,6 +453,7 @@ if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxPostalCod
   let browser = Aliases.browser;
   let textbox = browser.loginPage.pageLeadCreation.pageLeadDetails;
   textbox.textboxCity.SetText("Ludhiana");
+  Delay(500)
   textbox.txtBoxCity.Click();
   
 //Verify that Postal Code* field is not null
@@ -468,17 +478,29 @@ if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxPostalCod
       
       
            
-/*      aqUtils.Delay(1000);
+      aqUtils.Delay(1000);
 //Verify that Actions button is visible on screen
-  if (Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.btnActions.VisibleOnScreen)
+  /*if (Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.btnActions.VisibleOnScreen)
    {
-    Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.btnActions.ClickButton();
+    Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.buttonActions2.ClickButton();
     Log.Message("Actions button is visible on screen")
    }
   else{
     Log.Message("Actions button is not visible on screen")
       }
 */
+  aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("//button[.='Actions']"), "contentText", cmpEqual, "Actions");
+  Log.Checkpoint("Action button is visible");
+  Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.buttonActions2.ClickButton();
+  Log.Checkpoint("Action button is clicked");
+
+  
+
+
+  
+ 
+
+  
 
   
 

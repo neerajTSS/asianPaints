@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="builderSubSegmentListVerification">
+		<Source Object="C:\Users\Komaljit.Kaur\OneDrive - Technossus LLC\Desktop\PaintRegular.xlsx">
+			<DataExtraction Type="ExcelTableSheet" SheetTitle="Individual(Segment,SubSegment)" FirstRowIsHeader="True" />
+		</Source>
+		<Columns>
+			<Column CompareStyle="Default">Builder Segment</Column>
+		</Columns>
+		<Rows SpecifedRowsCount="1">
+			<Row>
+				<Cell Type="String">Builders</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

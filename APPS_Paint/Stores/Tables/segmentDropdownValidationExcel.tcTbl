@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
-	<Table Name="PaintRegular1">
+	<Table Name="segmentDropdownValidationExcel">
 		<Source Object="C:\Users\Komaljit.Kaur\OneDrive - Technossus LLC\Desktop\PaintRegular.xlsx">
-			<DataExtraction Type="ExcelTableSheet" SheetTitle="Test_Data" FirstRowIsHeader="True" />
+			<DataExtraction Type="ExcelTableSheet" SheetTitle="Dropdown_Data" FirstRowIsHeader="True" />
 		</Source>
 		<Columns>
 			<Column CompareStyle="Default">Segment</Column>

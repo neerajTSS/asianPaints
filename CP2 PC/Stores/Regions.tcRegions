@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
-	<children>
-		<child name="pageHomeSapCloudForCustomer1" key="{B73111FD-42E2-4F8C-A374-CDF208768577}">
-			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageHomeSapCloudForCustomer1" ID="{B73111FD-42E2-4F8C-A374-CDF208768577}" FileName="Regions\pageHomeSapCloudForCustomer1.png" Update="True" />
-		</child>
-	</children>
-</Root>

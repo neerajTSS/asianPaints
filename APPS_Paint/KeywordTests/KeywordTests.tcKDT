@@ -2,17 +2,18 @@
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<folder name="LoginPage_Test">
-			<child name="LoginPage" key="{9F1880DA-91E6-4622-9E4B-D86DF0EE96F5}" path="LoginPage.tcKDTest" />
+			<child name="LoginPage" key="{E805A8A5-803B-42AF-B9DF-66EE357B15F2}" path="LoginPage.tcKDTest" />
 		</folder>
 		<folder name="HomePage_Test">
-			<child name="HomePage" key="{B06DA9E6-1EFF-4A29-BF42-F907C3900697}" path="HomePage.tcKDTest" />
+			<child name="HomePage" key="{B7B09164-667E-4163-ADB2-1C4DED37CA5D}" path="HomePage.tcKDTest" />
 		</folder>
 		<folder name="LeadCreation_Test">
-			<child name="LeadCreation" key="{1F4B72A0-75AC-4D8E-8CD2-DFDA9F2BBA8C}" path="LeadCreation.tcKDTest" />
+			<child name="LeadCreation" key="{F497CAC2-E5E3-4825-B2A8-AED50CD0A22F}" path="LeadCreation.tcKDTest" />
 		</folder>
 		<folder name="DropDown_Test">
-			<child name="DropDown" key="{B19C5322-1050-41B8-9E80-717A4FC55192}" path="DropDown.tcKDTest" />
-			<child name="Dropdown_SubSegment_Test" key="{331BEF06-875C-4411-B441-78F56156F6E8}" path="Dropdown_SubSegment_Test.tcKDTest" />
+			<child name="SegmentDropdown_Test" key="{C6A361B9-336C-41AB-93B0-B5D1754CAEDC}" path="SegmentDropdown_Test.tcKDTest" />
+			<child name="SubSegmentDropdown_Test" key="{CF54DF29-30F1-4F72-B9F2-2E12A010C397}" path="SubSegmentDropdown_Test.tcKDTest" />
+			<child name="SegmentList_Test" key="{9E14A457-E699-4733-B3C0-7FE348160ABF}" path="SegmentList_Test.tcKDTest" />
 		</folder>
 	</children>
 </Root>

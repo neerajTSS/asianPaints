@@ -2,6 +2,9 @@
 <Root signature="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" version="15.0">
 	<children>
 		<child name="PaintRegular1" key="{CE87D411-53FA-4BE3-ABEA-BF00B0A498B3}" path="PaintRegular1.tcTbl" />
-		<child name="PaintRegular_SubSegment" key="{ED44BFA1-0C4E-4253-AE12-9791EE65AA80}" path="PaintRegular_SubSegment.tcTbl" />
+		<child name="segmentDropdownValidationExcel" key="{0BCF300E-A8CA-465A-80CB-2EB50F0CA710}" path="segmentDropdownValidationExcel.tcTbl" />
+		<child name="subSegmentValidation" key="{D4D3C11B-D1B0-41D8-A6CC-DC6B6301BC93}" path="subSegmentValidation.tcTbl" />
+		<child name="builderSubSegmentListVerification" key="{5D9A9B23-1171-4AAA-887C-D76416219888}" path="builderSubSegmentListVerification.tcTbl" />
+		<child name="Segments" key="{CAF53499-1881-4285-8692-0041F6C72F10}" path="Segments.tcTbl" />
 	</children>
 </Root>

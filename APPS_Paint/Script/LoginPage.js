@@ -30,9 +30,12 @@
     
     aqUtils.Delay(2000);
   //click on back button
-  let browserWindow = Aliases.browser.BrowserWindow;
-  browserWindow.Click(33, 89);
-  browserWindow.Maximize();
+
+  browserWindow = Aliases.browser.BrowserWindow;
+  browserWindow.Click(125, 87);
+  
+  Aliases.browser.loginPage.Confirm.buttonOk.ClickButton();
+  Aliases.browser.BrowserWindow.Maximize();
 
 }
 

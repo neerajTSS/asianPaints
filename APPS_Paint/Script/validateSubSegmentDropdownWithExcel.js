@@ -1,6 +1,8 @@
-﻿function DropDown(PlaceName,Segment)
+﻿function validateDropdownWithExcel()
+//﻿function validateDropdownWithExcel(PlaceName,Segment)
 {
-  //Click on 'Leads' 
+  
+/* //Click on 'Leads' 
   Aliases.browser.loginPage.allMenuLinks.linkLink2.Click();
   Log.Message("Verified that Leads option is clicked");
 
@@ -41,20 +43,14 @@
   aqUtils.Delay(1000);
 //Click on second checkbox under 'MMI Suggested Addresses'
   Aliases.browser.loginPage.pageLeadCreation.pageLead.addressCheckBox.Click();
+*/
 
-//click on the dropdown of segment
-  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Click();
-  Tables.PaintRegular1.Check();
-  NameMapping.Sys.browser.loginPage.panel1001Ports.VisibleOnScreen;
-  
+
+//click on the subsegment field
+ Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Click();
+ //Get the excel
+ Tables.subSegmentValidation.Check(); 
+//Inbuilt function- it will validate the UI values with the excel
+ NameMapping.Sys.browser.loginPage.panel1001Ports.VisibleOnScreen;
 
 }
-
-
-
-
-
-
-
-
- 

@@ -2070,6 +2070,274 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelBuilders4" Key="{9FAD85EF-8AED-45BB-9822-ACD0AE27E2E0}">
+										<Image FileName="956177457" Left="365" Top="122" Right="940" Bottom="795" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[@role=&apos;application&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapMPopoverCont&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="segmentBox" Key="{7AD55009-1755-44FF-B740-5E48BF36E2AD}">
+										<Image FileName="970942744" Left="973" Top="426" Right="1498" Bottom="469" />
+										<TypeInfo Item0="{DE5DE06A-2C5A-44F7-A397-5EB1FF304015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[6]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[6]//input[contains(@class, &apos;sapMInputBaseInner&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__composite25&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[6]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Confirm" Key="{79873DBD-C229-4EF2-B952-715F2DBC3A54}">
+										<Image FileName="1363732393" Left="671" Top="97" Right="1249" Bottom="348" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Confirm" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonOk" Key="{514C9553-0932-4E62-BCA6-DABB4EF4FEC1}">
+												<Image FileName="1363732393" Left="990" Top="263" Right="1098" Bottom="312" />
+												<TypeInfo Item0="{3C42A619-1346-4853-86CA-33A0B82E76FB}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="buttonActions2" Key="{6303A513-C782-49A5-8ED5-D5DF6C8530D8}">
+										<Image FileName="2020251020" Left="1756" Top="322" Right="1868" Bottom="367" />
+										<TypeInfo Item0="{FB0921A1-B0BF-4343-9A94-605049C8D750}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Actions&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonActions3" Key="{0F7848E4-9B9D-4E90-87C3-E16EA124DC66}">
+										<Image FileName="1452439460" Left="1765" Top="331" Right="1877" Bottom="376" />
+										<TypeInfo Item0="{DFC5D8F3-42D2-4F41-A77A-B548D9C0098C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Actions&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1001Ports4" Key="{3CCC25E5-4984-43AA-AC7D-7F6511023437}">
+										<Image FileName="-2026276752" Left="980" Top="122" Right="1555" Bottom="564" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdownlistbox8d1033a88ed231847248f1761eeea1c7_3262-popup-cont" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1001Ports5" Key="{1765771E-4741-4098-9D23-2021063BFF96}">
+										<Image FileName="176756195" Left="980" Top="484" Right="1555" Bottom="1045" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdownlistbox8d1033a88ed231847248f1761eeea1c7_3262-popup-cont" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSubSegment" Key="{7568328F-FC40-48FB-8700-5C8BFBB85F8C}">
+										<Image FileName="-846317469" Left="346" Top="654" Right="961" Bottom="760" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//div[@id=&apos;__div1&apos;]//section/div[@id=&apos;__content3&apos;]//div[4]//div[7]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBuilders" Key="{CB2F4CF0-9A62-4DB1-81FD-12FFAE293152}">
+										<Image FileName="-2098409570" Left="365" Top="747" Right="940" Bottom="797" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Builders&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBuilders5" Key="{940FC510-DB0B-43CC-971F-E05FEC6CCFF8}">
+										<Image FileName="810905894" Left="365" Top="747" Right="940" Bottom="797" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdownlistboxca597c13fe7214b57208b2ec262c7e0e_3266-popup-list" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="segmentChs" Key="{2B85826F-9D48-4AFD-A86F-5A83284708A8}">
+										<Image FileName="-808485391" Left="991" Top="277" Right="1509" Bottom="298" />
+										<TypeInfo Item0="{63910F08-4EB3-418C-A31A-CD446D7FE11F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[text()=&apos;111 - CHS&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@role=&apos;dialog&apos;]//ul/li[4]//div[contains(@class, &apos;sapMSLITitleOnly&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//ul[@role=&apos;listbox&apos;]/li[4]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSapUiBlocklayerPopup" Key="{4507FD83-4AAF-432B-9E9E-96FCE672C4A5}">
+										<Image FileName="1397251974" Left="9" Top="117" Right="1929" Bottom="1039" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sap-ui-blocklayer-popup" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapUiBLy&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeChs" Key="{6C4C0D04-BCE2-403F-9400-987EAED5FB3E}">
+										<Image FileName="605212873" Left="365" Top="747" Right="940" Bottom="797" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;CHS&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="txtChs" Key="{D5B752D2-2364-4A00-82A9-09589FF6ABB6}">
+										<Image FileName="605212873" Left="365" Top="747" Right="940" Bottom="797" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//li[.=&apos;CHS&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel121Commercial" Key="{CD1108B3-0A3E-49EF-80C9-FE2DD86A1124}">
+										<Image FileName="-511055701" Left="991" Top="327" Right="1509" Bottom="348" />
+										<TypeInfo Item0="{63910F08-4EB3-418C-A31A-CD446D7FE11F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;121 - Commercial&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li[5]//div[contains(@class, &apos;sapMSLITitleOnly&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]/li[5]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCommercial" Key="{162FAAA6-F151-40BE-BF94-C77FD7BF695F}">
+										<Image FileName="1502180323" Left="365" Top="747" Right="940" Bottom="797" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;Commercial&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCommercial2" Key="{26994830-7491-4DEF-B252-684EE02769FC}">
+										<Image FileName="1502180323" Left="365" Top="747" Right="940" Bottom="797" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Commercial&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode131Corporate" Key="{E097347D-DDEA-40A7-BFA0-F336C4862B1F}">
+										<Image FileName="2105898540" Left="971" Top="363" Right="1529" Bottom="413" />
+										<TypeInfo Item0="{63910F08-4EB3-418C-A31A-CD446D7FE11F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;131 - Corporate&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCorporate" Key="{5464A3A5-9717-40F4-8C89-EF7806C5F347}">
+										<Image FileName="-1413790294" Left="365" Top="747" Right="940" Bottom="797" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;Corporate&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCorporate2" Key="{615933C9-17FF-4BAC-831D-229B4DF36203}">
+										<Image FileName="-1413790294" Left="365" Top="747" Right="940" Bottom="797" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Corporate&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel141EducationInstitutions" Key="{7D74A9D5-D013-4A67-8DE6-5009B5D71498}">
+										<Image FileName="1522485116" Left="991" Top="427" Right="1509" Bottom="448" />
+										<TypeInfo Item0="{63910F08-4EB3-418C-A31A-CD446D7FE11F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;141 - Education Institutions&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li[7]//div[contains(@class, &apos;sapMSLITitleOnly&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]/li[7]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEducationalInstitutions" Key="{3AAF1678-89DE-4758-95A2-0549E5BDED13}">
+										<Image FileName="1972990056" Left="365" Top="747" Right="940" Bottom="797" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;Educational Institutions&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEducationalInstitutions2" Key="{5511263A-B0C4-4B34-B238-B81380D320D1}">
+										<Image FileName="1972990056" Left="365" Top="747" Right="940" Bottom="797" />
+										<TypeInfo Item0="{634E9269-9AA6-4705-B0EF-25E192C96123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Educational Institutions&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel611Energy" Key="{2774ECA3-D716-4665-B5BD-B89ABD6D74E4}">
+										<Image FileName="-1486536865" Left="991" Top="527" Right="1509" Bottom="548" />
+										<TypeInfo Item0="{63910F08-4EB3-418C-A31A-CD446D7FE11F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;611 - Energy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li[19]//div[contains(@class, &apos;sapMSLITitleOnly&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]/li[19]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -2234,6 +2502,8 @@
 						<Child Name="buttonCreate5" Owner="{0AA6663F-1CA1-44D1-8671-672A6B1CA6EF}" />
 						<Child Name="textnodePlaceName2" Owner="{9CC58C43-683F-42FF-8F2C-9E57574A1BBB}" />
 						<Child Name="buttonSearchSite2" Owner="{EF1633F4-9620-4EBE-80DB-A72C68C424D0}" />
+						<Child Name="buttonActions3" Owner="{0F7848E4-9B9D-4E90-87C3-E16EA124DC66}" />
+						<Child Name="panelSubSegment" Owner="{7568328F-FC40-48FB-8700-5C8BFBB85F8C}" />
 					</Child>
 					<Child Name="MmiAddressSection" Owner="{14FF3D64-F2AE-4F3E-ADED-82A7C1B3A656}">
 						<Child Name="txtBoxPlaceName" Owner="{F0DDB7D2-1A08-402C-9251-1C88048DCB01}" />
@@ -2254,6 +2524,7 @@
 						<Child Name="segmentDropdownButton" Owner="{466D88FC-A029-499C-978F-B813D8A259C9}" />
 						<Child Name="subSegmentDropdownButton" Owner="{656CEC33-7BE8-4515-A2D3-D362DE4B3D06}" />
 						<Child Name="stageDropdownButton" Owner="{29DB9B42-D089-491B-BD41-DD908576B0E7}" />
+						<Child Name="segmentBox" Owner="{7AD55009-1755-44FF-B740-5E48BF36E2AD}" />
 					</Child>
 					<Child Name="txtNewLead" Owner="{A0293425-A4AB-4681-A518-E5756025E497}" />
 					<Child Name="footerSaveAndOpen" Owner="{CC0EC759-3E01-4932-8BCF-175789F3057B}">
@@ -2272,6 +2543,7 @@
 						<Child Name="panelSiteInformation" Owner="{C8D9BE17-B496-429E-9D61-C93DD620DDFA}" />
 						<Child Name="textboxCity" Owner="{7B611786-EDC9-4725-AEC8-EB75FE08F1DD}" />
 						<Child Name="buttonMore" Owner="{F92369F1-11FD-40A6-81EF-534AFFEFA3E4}" />
+						<Child Name="buttonActions2" Owner="{6303A513-C782-49A5-8ED5-D5DF6C8530D8}" />
 					</Child>
 					<Child Name="sectionContant" Owner="{3376E0EE-E574-43F1-B45D-98D5F86BFEBF}">
 						<Child Name="txtBoxSiteName" Owner="{FA6F2A3A-D442-41AC-AB1A-BA2800D23B18}" />
@@ -2283,9 +2555,15 @@
 				</Child>
 				<Child Name="dropDownListSegment" Owner="{8B5D98BF-BF7D-498B-85CA-5EE1AE3093F9}">
 					<Child Name="txtBuilders" Owner="{05AD6891-6A5C-4931-B841-B2149E0C2A5D}" />
+					<Child Name="segmentChs" Owner="{2B85826F-9D48-4AFD-A86F-5A83284708A8}" />
+					<Child Name="segmentCommercial" Owner="{CD1108B3-0A3E-49EF-80C9-FE2DD86A1124}" />
+					<Child Name="segmentCorporate" Owner="{E097347D-DDEA-40A7-BFA0-F336C4862B1F}" />
+					<Child Name="segmenEducationInstitutions" Owner="{7D74A9D5-D013-4A67-8DE6-5009B5D71498}" />
+					<Child Name="segmentEnergy" Owner="{2774ECA3-D716-4665-B5BD-B89ABD6D74E4}" />
 				</Child>
 				<Child Name="txtBuilders" Owner="{D781F425-F569-47FA-B18C-BF6589F7C212}">
 					<Child Name="txtBuildersfromDropdown" Owner="{1513CEE9-660B-4761-B193-55E4AE7409FB}" />
+					<Child Name="textnodeBuilders" Owner="{CB2F4CF0-9A62-4DB1-81FD-12FFAE293152}" />
 				</Child>
 				<Child Name="dropDownListStage" Owner="{2DBA0A9A-7B55-4295-B409-4568B686F186}">
 					<Child Name="txtCold6Months" Owner="{C5B10917-6B4D-4720-8145-D601BBBD3DD4}" />
@@ -2304,6 +2582,26 @@
 				<Child Name="panel1001Ports3" Owner="{FAE95472-2619-4805-A27E-30C95B90E725}" />
 				<Child Name="panelBuilders2" Owner="{2B725180-45ED-486A-AE57-4A56BBF31461}" />
 				<Child Name="panelBuilders3" Owner="{D3BD0662-BAC8-4AEC-AAD3-CBCD77A9BABB}" />
+				<Child Name="panelBuilders4" Owner="{9FAD85EF-8AED-45BB-9822-ACD0AE27E2E0}" />
+				<Child Name="Confirm" Owner="{79873DBD-C229-4EF2-B952-715F2DBC3A54}">
+					<Child Name="buttonOk" Owner="{514C9553-0932-4E62-BCA6-DABB4EF4FEC1}" />
+				</Child>
+				<Child Name="panel1001Ports4" Owner="{3CCC25E5-4984-43AA-AC7D-7F6511023437}" />
+				<Child Name="panel1001Ports5" Owner="{1765771E-4741-4098-9D23-2021063BFF96}" />
+				<Child Name="panelBuilders5" Owner="{940FC510-DB0B-43CC-971F-E05FEC6CCFF8}" />
+				<Child Name="panelSapUiBlocklayerPopup" Owner="{4507FD83-4AAF-432B-9E9E-96FCE672C4A5}" />
+				<Child Name="txtChs" Owner="{6C4C0D04-BCE2-403F-9400-987EAED5FB3E}">
+					<Child Name="txtChs" Owner="{D5B752D2-2364-4A00-82A9-09589FF6ABB6}" />
+				</Child>
+				<Child Name="textnodeCommercial" Owner="{162FAAA6-F151-40BE-BF94-C77FD7BF695F}">
+					<Child Name="txtCommercial" Owner="{26994830-7491-4DEF-B252-684EE02769FC}" />
+				</Child>
+				<Child Name="textnodeCorporate" Owner="{5464A3A5-9717-40F4-8C89-EF7806C5F347}">
+					<Child Name="txtCorporate" Owner="{615933C9-17FF-4BAC-831D-229B4DF36203}" />
+				</Child>
+				<Child Name="textnodeEducationalInstitutions" Owner="{3AAF1678-89DE-4758-95A2-0549E5BDED13}">
+					<Child Name="txtEducationalInstitutions" Owner="{5511263A-B0C4-4B34-B238-B81380D320D1}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{924FAEAC-D7A3-4537-B31E-BB4A549F42D6}">
