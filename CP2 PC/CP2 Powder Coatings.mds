@@ -53,6 +53,11 @@
 						<ConnectionInfo FileName="C:\Users\neeraj.sharma2\Downloads\Asian_Paint_Data.xlsx" Table="Test_Data$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
+				<Variable Name="excelData" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="C:\Users\neeraj.sharma2\Downloads\Asian_Paint_Data.xlsx" Table="Test_Data$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
 			</Items>
 		</data>
 	</variables>

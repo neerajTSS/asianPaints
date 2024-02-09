@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{DCB41653-E856-4A7E-AAEA-AA4B02BB577F}">
 	<children>
-		<child name="CP2 PC" key="{1B1411FC-054B-45B0-9F8E-637D12AA0C0E}" path="CP2 PC.mds" />
+		<child name="CP2 Powder Coatings" key="{1B1411FC-054B-45B0-9F8E-637D12AA0C0E}" path="CP2 Powder Coatings.mds" />
 	</children>
 	<testItems key="{6F999A7C-3533-4645-93F4-AC502341DE52}">
 		<children>

@@ -16,5 +16,6 @@
 			<child name="Lead_Details" key="{7C4023A5-CCD7-4F94-87CE-28C89AABF2E8}" path="Lead_Details.tcKDTest" />
 			<child name="New_Lead_Creation" key="{CD34E492-91E3-4EA0-A64A-D2DB53D2B9D7}" path="New_Lead_Creation.tcKDTest" />
 		</folder>
+		<child name="Test1" key="{884F5D81-EB42-4FF7-AD4B-710F26D1DCD4}" path="Test1.tcKDTest" />
 	</children>
 </Root>
