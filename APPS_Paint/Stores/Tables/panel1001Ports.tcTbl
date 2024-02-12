@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="panel1001Ports">
+		<Source Object="Aliases.browser.loginPage.FindElement(&quot;#dropdownlistbox8d1033a88ed231847248f1761eeea1c7_1260-popup-cont&quot;)">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="ByCoordinates" SelectionPreference="NearestToCenter" HasHeader="True">
+				<Rectangle Left="0" Top="0" Right="575" Bottom="442" />
+			</DataExtraction>
+		</Source>
+		<Columns>
+			<Column>1001</Column>
+			<Column>- Ports</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">101-</Cell>
+				<Cell Type="String">Builders</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">1011</Cell>
+				<Cell Type="String">- Oil &amp; Gas - Maintenance</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">111 -</Cell>
+				<Cell Type="String">CHS</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">121 -</Cell>
+				<Cell Type="String">Commercial</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">131 -</Cell>
+				<Cell Type="String">Corporate</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">141-</Cell>
+				<Cell Type="String">Education Institutions</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">151 -</Cell>
+				<Cell Type="String">Factories</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">161-</Cell>
+				<Cell Type="String">Furniture Manufacturers</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="excelValidation1">
+		<Source Object="C:\Users\Komaljit.Kaur\OneDrive - Technossus LLC\Desktop\excelValidation.xlsx">
+			<DataExtraction Type="ExcelTableSheet" SheetTitle="Segment_Data" FirstRowIsHeader="True" />
+		</Source>
+		<Columns>
+			<Column CompareStyle="Default">Segment</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">Builders</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">CHS</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Commercial</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Corporate</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Educational Institutions</Cell>
+			</Row>
+			<Row>
+				<Cell Type="Empty"></Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Energy</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Factories</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Fitout Companies/Joineries</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Furniture Manufacturers</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Hospitals</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Hotels</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Infrastructure</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Oil &amp; Gas - Maintenance</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Other Institutions</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">PSU / Government </Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Ports</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">RMC</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Religious Institutions</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Residential</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Supply Customer</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

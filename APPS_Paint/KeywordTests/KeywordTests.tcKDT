@@ -15,5 +15,12 @@
 			<child name="SubSegmentDropdown_Test" key="{CF54DF29-30F1-4F72-B9F2-2E12A010C397}" path="SubSegmentDropdown_Test.tcKDTest" />
 			<child name="SegmentList_Test" key="{9E14A457-E699-4733-B3C0-7FE348160ABF}" path="SegmentList_Test.tcKDTest" />
 		</folder>
+		<folder name="Warranty_Test">
+			<child name="Warranty" key="{8165EAAF-9AB7-4A27-A5AA-0A1E14C5AD3B}" path="Warranty.tcKDTest" />
+		</folder>
+		<folder name="ApprovalLoginPage_Test">
+			<child name="ApprovalLoginPage" key="{8426B3E8-7418-4592-A321-1B0DDE3C3586}" path="ApprovalLoginPage.tcKDTest" />
+			<child name="ApprovalProcess" key="{9DA5C008-2497-495D-926B-B5A22A385106}" path="ApprovalProcess.tcKDTest" />
+		</folder>
 	</children>
 </Root>

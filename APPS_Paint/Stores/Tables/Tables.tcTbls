@@ -6,5 +6,7 @@
 		<child name="subSegmentValidation" key="{D4D3C11B-D1B0-41D8-A6CC-DC6B6301BC93}" path="subSegmentValidation.tcTbl" />
 		<child name="builderSubSegmentListVerification" key="{5D9A9B23-1171-4AAA-887C-D76416219888}" path="builderSubSegmentListVerification.tcTbl" />
 		<child name="Segments" key="{CAF53499-1881-4285-8692-0041F6C72F10}" path="Segments.tcTbl" />
+		<child name="excelValidation1" key="{85E5AB09-6DB5-474A-B358-44D9EE851015}" path="excelValidation1.tcTbl" />
+		<child name="panel1001Ports" key="{A2E20C03-280C-43AA-A128-5973FFC93701}" path="panel1001Ports.tcTbl" />
 	</children>
 </Root>

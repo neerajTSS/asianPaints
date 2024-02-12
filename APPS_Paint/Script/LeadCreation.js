@@ -1,58 +1,51 @@
-﻿function LeadCreation(PlaceName,CustomerName,CustomerMobileNo,CustomerEmail)
-//function LeadCreation()
-{
-//Click on 'Leads' 
-  Aliases.browser.loginPage.allMenuLinks.linkLink2.Click();
+﻿  function LeadCreation(PlaceName,CustomerName,CustomerMobileNo,CustomerEmail)
+  //function LeadCreation()
+  {
+/*  //Click on 'Leads' 
+  Aliases.browser.loginPage.allMenuLinks.leadsLink.Click();
   Log.Message("Verified that Leads option is clicked");
 
   aqUtils.Delay(1000);
-//Chekpoint for 'Leads' text after clicking the Leads option
+  //Chekpoint for 'Leads' text after clicking the Leads option
   aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("#__title0-inner"), "contentText", cmpContains, "Leads", false);   
   Log.Checkpoint("Leads text verification pass");
   Log.Message("Verified that after clicking the Leads option, Leads text is visible");
   
   aqUtils.Delay(1000);
-//Checkpoint for '+' icon on Leads page
+  //Checkpoint for '+' icon on Leads page
   if (Aliases.browser.loginPage.pageLeadCreation.pageLead.btnCreate.VisibleOnScreen)
-   {
-    Aliases.browser.loginPage.pageLeadCreation.pageLead.btnCreate.ClickButton();
-    Log.Message("+ icon on Leads page is clicked")
-   }
+  {
+  Aliases.browser.loginPage.pageLeadCreation.pageLead.btnCreate.ClickButton();
+  Log.Message("+ icon on Leads page is clicked")
+  }
   else{
-    Log.Message("+ icon on Leads page is not clicked")
-      }
-
+  Log.Message("+ icon on Leads page is not clicked")
+  }
+*/
+   
   aqUtils.Delay(1000);
-/*//Checkpoint for 'New Lead' tab
- // aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("#__text108"), "contentText", cmpContains, "New Lead", false);
-  aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("#__text108"), "VisibleOnScreen", cmpEqual, true);
-  aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("#__text108"), "contentText", cmpEqual, "New Lead");
-  Log.Checkpoint("New Lead tab verification pass");
-  Log.Message("Verified that after clicking the Leads option user redirect to the New Lead tab ");
-*/  
-  aqUtils.Delay(1000);
-//Checkpoint for 'Place Name' text  
+  //Checkpoint for 'Place Name' text  
   aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("//bdi[.='Place Name']"), "contentText", cmpContains, "Place Name", false);
   Log.Checkpoint("Place Name text verification pass");  
   
-//Click on the Place Name field and get name from excel sheet
+  //Click on the Place Name field and get name from excel sheet
   Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxPlaceName.Click();
   Log.Message("Verified clicking the Place Name field.");
   Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxPlaceName.SetText(PlaceName);
   Log.Message("Verified PlaceName is filled");
   
-//Checkpoint for Search Site button
+  //Checkpoint for Search Site button
   aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("//button[.='Search Site']"), "contentText", cmpContains, "Search Site", false);
   Log.Checkpoint("Search Site button clicked pass");
   Log.Message("Verified Search Site button is clicked");
   
-//Click on the Search Site button
+  //Click on the Search Site button
   Aliases.browser.loginPage.pageLeadCreation.pageLead.btnSearchSite.ClickButton();
 
   aqUtils.Delay(1000);
-//Click on second checkbox under 'MMI Suggested Addresses'
+  //Click on second checkbox under 'MMI Suggested Addresses'
   Aliases.browser.loginPage.pageLeadCreation.pageLead.addressCheckBox.Click();
-//Checkpoints for fields on New Lead page
+  //Checkpoints for fields on New Lead page
   aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("//bdi[.='Site Name']"), "contentText", cmpContains, "Site Name", false);
   Log.Checkpoint("Site Name verification pass");
   Log.Message("Verified that Site Name is visible");
@@ -125,7 +118,7 @@
   Log.Checkpoint("Mobile verification pass");
   Log.Message("Verified that Mobile is visible");
   
-  aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("#label84f3de75fe4ba51d21d728b6d072e4c5_540-bdi"), "contentText", cmpContains, "Customer Email", false);
+  aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("#label84f3de75fe4ba51d21d728b6d072e4c5_421-bdi"), "contentText", cmpContains, "Customer Email", false);
   Log.Checkpoint("Customer Email verification pass");
   Log.Message("Verified that Customer Email is visible");
   
@@ -133,322 +126,342 @@
   Log.Checkpoint("Save and Open verification pass");
   Log.Message("Verified that Save and Open is visible");
 
-//Check that Site Name filed is not empty 
+  //Check that Site Name filed is not empty 
   
-   if (Aliases.browser.loginPage.pageLeadCreation.sectionContant.txtBoxSiteName != null)
-   {
-    Log.Message("Site Name field is not empty")
-   }
+  if (Aliases.browser.loginPage.pageLeadCreation.sectionContant.txtBoxSiteName != null)
+  {
+  Log.Message("Site Name field is not empty")
+  }
   else{
-    Log.Message("Site Name field is empty")
-      }
+  Log.Message("Site Name field is empty")
+  }
 
-//Check that Line of Business filed is not empty 
+  //Check that Line of Business filed is not empty 
   
-   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxLineOfBusiness != null)
-   {
-    Log.Message("Line of Business field is not empty")
-   }
+  if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxLineOfBusiness != null)
+  {
+  Log.Message("Line of Business field is not empty")
+  }
   else{
-    Log.Message("Line of Business field is empty")
-      }
+  Log.Message("Line of Business field is empty")
+  }
 
-//Check that Sub Line of Business filed is not empty 
+  //Check that Sub Line of Business filed is not empty 
   
-   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtboxSubLineOfBusiness != null)
-   {
-    Log.Message("Sub Line of Business field is not empty")
-   }
+  if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtboxSubLineOfBusiness != null)
+  {
+  Log.Message("Sub Line of Business field is not empty")
+  }
   else{
-    Log.Message("Sub Line of Business field is empty")
-      } 
+  Log.Message("Sub Line of Business field is empty")
+  } 
 
- //Double-clicks the 'segmentDropdownButton' object.
-   Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Click();
-   Delay(1000);
+  //Double-clicks the 'segmentDropdownButton' object.
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Click();
+  Delay(1000);
 
-// Simulate pressing the down arrow key
-   Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Keys("[Down]");
+  // Simulate pressing the down arrow key
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Keys("[Down]");
 
-// Log the text of the currently selected item
+  // Log the text of the currently selected item
   var selectedItemText = Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Text;
   Log.Message("Selected Item: " + selectedItemText);
 
-// Loop through pressing the down arrow key and logging the text
-    var numberOfItemsToNavigate = 20; // Adjust as needed
-    for (var i = 0; i < numberOfItemsToNavigate; i++) 
-    {
-        // Simulate pressing the down arrow key
-    Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Keys("[Down]");
+  // Loop through pressing the down arrow key and logging the text
+  var numberOfItemsToNavigate = 20; // Adjust as needed
+  for (var i = 0; i < numberOfItemsToNavigate; i++) 
+  {
+    // Simulate pressing the down arrow key
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Keys("[Down]");
 
-    // Log the text of the currently selected item
-    var currentItemText = Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Text;
-    Log.Message("Item " + (i + 1) + ": " + currentItemText);
+  // Log the text of the currently selected item
+  var currentItemText = Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Text;
+  Log.Message("Item " + (i + 1) + ": " + currentItemText);
 
-    // If it's the last iteration, remember the last item's text
-    if (i === numberOfItemsToNavigate - 1) {
-        var lastItemText = currentItemText;
-    }
+  // If it's the last iteration, remember the last item's text
+  if (i === numberOfItemsToNavigate - 1) {
+    var lastItemText = currentItemText;
   }
-   // Simulate pressing the Enter key to select the last item
-    Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Keys("[Enter]");
-    Log.Message("Last item selected: " + lastItemText);
-    Delay(1000)
+  }
+  // Simulate pressing the Enter key to select the last item
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentDropdownButton.Keys("[Enter]");
+  Log.Message("Last item selected: " + lastItemText);
+  Delay(1000)
   
-     Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Click();
-     Delay(1000);
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Click();
+  Delay(1000);
 
-// Simulate pressing the down arrow key
- Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Keys("[Down]");
+  // Simulate pressing the down arrow key
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Keys("[Down]");
 
-// Log the text of the currently selected item
+  // Log the text of the currently selected item
   var selectedItemText = Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Text;
   Log.Message("Selected Item: " + selectedItemText);
 
-// Loop through pressing the down arrow key and logging the text
+  // Loop through pressing the down arrow key and logging the text
   var numberOfItemsToNavigate = 100; // Adjust as needed
   var lastItemText;
   for (var i = 0; i < numberOfItemsToNavigate; i++) {
+  // Simulate pressing the down arrow key
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Keys("[Down]");
+
+  // Log the text of the currently selected item
+  var currentItemText = Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Text;
+  Log.Message("Item " + (i + 1) + ": " + currentItemText);
+
+  // If it's the last iteration, remember the last item's text
+  if (i === numberOfItemsToNavigate - 1) {
+    lastItemText = currentItemText;
+  }
+  }
+
+  // Simulate pressing the Enter key to select the last item
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Keys("[Enter]");
+  Log.Message("Last item selected: " + lastItemText);
+
+  /*  
+  // Click and interact with the 'stageDropdownButton'
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.stageDropdownButton.Click();
+
+  // Function to interact with the dropdown using arrow keys
+  function InteractWithDropdown(stageDropdownButton)
+  {
+  stageDropdownButton.Click();
+  Delay(1000);
+    
+  // Simulate pressing the down arrow key
+  stageDropdownButton.Keys("[Down]");
+   
+  // Log the text of the currently selected item
+  var selectedItemText = stageDropdownButton.Text;
+  Log.Message("Selected Item: " + selectedItemText);
+
+  // Loop through pressing the down arrow key and logging the text
+  var numberOfItemsToNavigate = 3; // Adjust as needed
+  var lastItemText;
+    
+  for (var i = 0; i < numberOfItemsToNavigate; i++) 
+  {
     // Simulate pressing the down arrow key
-    Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Keys("[Down]");
+    stageDropdownButton.Keys("[Down]");
 
     // Log the text of the currently selected item
-    var currentItemText = Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Text;
+    var currentItemText = stageDropdownButton.Text;
+    Log.Message("Item " + (i + 1) + ": " + currentItemText);
+
+    // If it's the last iteration, remember the last item's text
+    if (i === numberOfItemsToNavigate - 1) 
+    {
+        lastItemText = currentItemText;
+    }
+  }
+    
+  // Simulate pressing the Enter key to select the last item
+  stageDropdownButton.Keys("[Enter]");
+  Log.Message("Last item selected: " + lastItemText); 
+    
+  }
+  */ 
+  
+  //Click on the drop down of the Stage field   
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.stageDropdownButton.Click();
+  aqUtils.Delay(1000);
+  //Select the Stage from the drop down
+  Aliases.browser.loginPage.dropDownListStage.txtCold6Months.Click();
+
+  //Click on the drop down of the Source field     
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.dropDownBtnSource.Click();
+  aqUtils.Delay(1000);
+  //Select the Source from the drop down
+  Aliases.browser.loginPage.dropDownListSource.txtApplicatorPaintWpcc.Click();
+
+  //Check that Project Type filed is not empty 
+  aqUtils.Delay(1000);
+  
+  // Click and interact with the 'projectTypeDropdownButton'
+  InteractWithDropdown(Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxDropdownFreshConstruction);
+
+  // Function to interact with the dropdown using arrow keys
+  function InteractWithDropdown(txtBoxDropdownFreshConstruction) {
+  txtBoxDropdownFreshConstruction.Click();
+  Delay(1000);
+
+  // Simulate pressing the down arrow key
+  txtBoxDropdownFreshConstruction.Keys("[Down]");
+
+  // Log the text of the currently selected item
+  var selectedItemText = txtBoxDropdownFreshConstruction.Text;
+  Log.Message("Selected Item: " + selectedItemText);
+
+  // Loop through pressing the down arrow key and logging the text
+  var numberOfItemsToNavigate = 3; // Adjust as needed
+  var lastItemText;
+  for (var i = 0; i < numberOfItemsToNavigate; i++) {
+    // Simulate pressing the down arrow key
+    txtBoxDropdownFreshConstruction.Keys("[Down]");
+
+    // Log the text of the currently selected item
+    var currentItemText = txtBoxDropdownFreshConstruction.Text;
     Log.Message("Item " + (i + 1) + ": " + currentItemText);
 
     // If it's the last iteration, remember the last item's text
     if (i === numberOfItemsToNavigate - 1) {
         lastItemText = currentItemText;
     }
-}
+  }
 
-// Simulate pressing the Enter key to select the last item
- Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Keys("[Enter]");
- Log.Message("Last item selected: " + lastItemText);
-
-/*  
-// Click and interact with the 'stageDropdownButton'
-   Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.stageDropdownButton.Click();
-
-// Function to interact with the dropdown using arrow keys
-function InteractWithDropdown(stageDropdownButton)
- {
-    stageDropdownButton.Click();
-    Delay(1000);
-    
-    // Simulate pressing the down arrow key
-    stageDropdownButton.Keys("[Down]");
+  // Simulate pressing the Enter key to select the last item
+  txtBoxDropdownFreshConstruction.Keys("[Enter]");
+  Log.Message("Last item selected: " + lastItemText);
+  }
    
-    // Log the text of the currently selected item
-    var selectedItemText = stageDropdownButton.Text;
-    Log.Message("Selected Item: " + selectedItemText);
-
-    // Loop through pressing the down arrow key and logging the text
-    var numberOfItemsToNavigate = 3; // Adjust as needed
-    var lastItemText;
-    
-    for (var i = 0; i < numberOfItemsToNavigate; i++) 
-    {
-        // Simulate pressing the down arrow key
-        stageDropdownButton.Keys("[Down]");
-
-        // Log the text of the currently selected item
-        var currentItemText = stageDropdownButton.Text;
-        Log.Message("Item " + (i + 1) + ": " + currentItemText);
-
-        // If it's the last iteration, remember the last item's text
-        if (i === numberOfItemsToNavigate - 1) 
-        {
-            lastItemText = currentItemText;
-        }
-    }
-    
-   // Simulate pressing the Enter key to select the last item
-    stageDropdownButton.Keys("[Enter]");
-    Log.Message("Last item selected: " + lastItemText); 
-    
- }
-*/ 
+  //Check that Parent Account filed is not empty 
   
-//Click on the drop down of the Stage field   
-  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.stageDropdownButton.Click();
-   aqUtils.Delay(1000);
-//Select the Stage from the drop down
-  Aliases.browser.loginPage.dropDownListStage.txtCold6Months.Click();
-
-//Click on the drop down of the Source field     
-  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.dropDownBtnSource.Click();
-   aqUtils.Delay(1000);
-//Select the Source from the drop down
-  Aliases.browser.loginPage.dropDownListSource.txtApplicatorPaintWpcc.Click();
-
-//Check that Project Type filed is not empty 
- aqUtils.Delay(1000);
-//Click on the Project Type field
-Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxDropdownFreshConstruction.Click();
-//Click on the first value
-Aliases.browser.loginPage.projectTypeDropdownList.txtlFreshConstruction.Click();
-
- 
-/*   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxDropdownFreshConstruction != null)
-   {
-    Log.Message("Project Type field is not empty")
-   }
+  if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxParrentAccount != null)
+  {
+  Log.Message("Parent Account field is not empty")
+  }
   else{
-    //click on the dropdown and select the value
-  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxDropdownFreshConstruction.Click();
-  Delay(500)
-  Aliases.browser.loginPage.projectTypeDropdownList.txtlFreshConstruction.Click();
-  Log.Message("Project Type field is empty")
-      }  
- */     
-//Check that Parent Account filed is not empty 
+  Log.Message("Parent Account field is empty")
+  } 
   
-   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxParrentAccount != null)
-   {
-    Log.Message("Parent Account field is not empty")
-   }
-  else{
-    Log.Message("Parent Account field is empty")
-      } 
-  
-      aqUtils.Delay(1000);          
-//Click on the Address Line 1
-Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1.Click();
-Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1.SetText("XYZ");
-/*if(Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1 != null)
-{
+  aqUtils.Delay(1000);          
+  //Click on the Address Line 1
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1.Click();
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1.SetText("XYZ");
+  /*if(Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1 != null)
+  {
   Log.Message("Address Line 1 is not empty")
-}
-else
-{
+  }
+  else
+  {
   Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxAddressLine1SetText(" XYZ");
-}
-*/   
-//Check that City filed is not empty 
+  }
+  */   
+  //Check that City filed is not empty 
   
-   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxCity != null)
-   {
-    Log.Message("City field is not empty")
-   }
+  if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxCity != null)
+  {
+  Log.Message("City field is not empty")
+  }
   else{
-    Log.Message("City field is empty")
-      }    
+  Log.Message("City field is empty")
+  }    
 
-//Check that State filed is not empty 
+  //Check that State filed is not empty 
   
-   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxState != null)
-   {
-    Log.Message("State field is not empty")
-   }
+  if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxState != null)
+  {
+  Log.Message("State field is not empty")
+  }
   else{
-    Log.Message("State field is empty")
-      }  
+  Log.Message("State field is empty")
+  }  
 
-//Check that Country/Region filed is not empty 
+  //Check that Country/Region filed is not empty 
   
-   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtSource != null)
-   {
-    Log.Message("Country/Region field is not empty")
-   }
+  if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtSource != null)
+  {
+  Log.Message("Country/Region field is not empty")
+  }
   else{
-    Log.Message("Country/Region field is empty")
-      }  
+  Log.Message("Country/Region field is empty")
+  }  
        
-//Check that Postal Code field is not empty
+  //Check that Postal Code field is not empty
   
-if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxPostalCode != null)
-   {
-    Log.Message("Postal Code field is not empty")
-   }
+  if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxPostalCode != null)
+  {
+  Log.Message("Postal Code field is not empty")
+  }
   else{
-    Log.Message("Postal Code field is empty")
-      }   
+  Log.Message("Postal Code field is empty")
+  }   
    
-//Check that eLoc of STP filed is not empty 
+  //Check that eLoc of STP filed is not empty 
   
-   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxeLocofStp != null)
-   {
-    Log.Message("eLoc of STP field is not empty")
-   }
+  if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxeLocofStp != null)
+  {
+  Log.Message("eLoc of STP field is not empty")
+  }
   else{
-    Log.Message("eLoc of STP field is empty")
-      } 
+  Log.Message("eLoc of STP field is empty")
+  } 
   
-//Click on the Contact Name filed and get name from excel sheet
+  //Click on the Contact Name filed and get name from excel sheet
   Aliases.browser.loginPage.pageLeadCreation.pageLead.txtBoxContactName.Click();
   Aliases.browser.loginPage.pageLeadCreation.pageLead.txtBoxContactName.SetText(CustomerName);
   
-//Click on the Job Title drop down
+  //Click on the Job Title drop down
   Aliases.browser.loginPage.pageLeadCreation.pageLead.jobTitleDropDownBtn.Click();
   aqUtils.Delay(2000);
-//Select the Job Title
+  //Select the Job Title
   Aliases.browser.loginPage.textnodePainter.panelPainter.Click();
   
-//Click on the Mobile field
+  //Click on the Mobile field
   Aliases.browser.loginPage.pageLeadCreation.pageLead.txtBoxMobile.Click();
-//Fill the Mobile field
+  //Fill the Mobile field
   Aliases.browser.loginPage.pageLeadCreation.pageLead.txtBoxMobile.SetText(CustomerMobileNo);
   
-//Click on the Customer Email field
+  //Click on the Customer Email field
   Aliases.browser.loginPage.pageLeadCreation.pageLead.txtBoxCustomerEmail.Click();
-//Fill the Customer Email field
+  //Fill the Customer Email field
   Aliases.browser.loginPage.pageLeadCreation.pageLead.txtBoxCustomerEmail.SetText(CustomerEmail);
 
-//Click on Save and Open button
+  //Click on Save and Open button
   Aliases.browser.loginPage.pageLeadCreation.footerSaveAndOpen.buttonSaveAndOpen.ClickButton();
  
   aqUtils.Delay(1000);
-//Click on More button
+  //Click on More button
   if(Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.buttonMore.VisibleOnScreen)
   {
-    Log.Checkpoint("More button is visible");
-    Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.buttonMore.ClickButton();
+  Log.Checkpoint("More button is visible");
+  Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.buttonMore.ClickButton();
   }
   else
   {
-    Log.Message("More button is not visible");
+  Log.Message("More button is not visible");
   }
 
- aqUtils.Delay(1000);
-//Click on the pencil icon 
+  aqUtils.Delay(1000);
+  //Click on the pencil icon 
   if(Aliases.browser.loginPage.pageLeadCreation.pageLead.btnEdit.VisibleOnScreen)
   {
-    Log.Message("Pencil icon is visible");
-    Aliases.browser.loginPage.pageLeadCreation.pageLead.btnEdit.ClickButton();
+  Log.Message("Pencil icon is visible");
+  Aliases.browser.loginPage.pageLeadCreation.pageLead.btnEdit.ClickButton();
   }
   else
   {
-    Log.Message("Pencil icon is not visible");
+  Log.Message("Pencil icon is not visible");
   }
   
-//Verify that on Lead screen all the manditory fields are autopopulated
- //Verify that Site Name* field is not null
-   if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxPlaceName != null)
-   {
-    Log.Message("Site Name* field is not empty")
-   }
+  //Verify that on Lead screen all the manditory fields are autopopulated
+  //Verify that Site Name* field is not null
+  if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxPlaceName != null)
+  {
+  Log.Message("Site Name* field is not empty")
+  }
   else{
-    Log.Message("Site Name* field is empty")
-      } 
+  Log.Message("Site Name* field is empty")
+  } 
  
- //Verify that Segment* field is not null
-   if (Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.txtBoxSegment != null)
-   {
-    Log.Message("Segment* field is not empty")
-   }
+  //Verify that Segment* field is not null
+  if (Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.txtBoxSegment != null)
+  {
+  Log.Message("Segment* field is not empty")
+  }
   else{
-    Log.Message("Segment* field is empty")
-      }
+  Log.Message("Segment* field is empty")
+  }
   
- //Verify that Source* field is not null
-   if (Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.txtBoxSource != null)
-   {
-    Log.Message("Source* field is not empty")
-   }
+  //Verify that Source* field is not null
+  if (Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.txtBoxSource != null)
+  {
+  Log.Message("Source* field is not empty")
+  }
   else{
-    Log.Message("Source* field is empty")
-      } 
+  Log.Message("Source* field is empty")
+  } 
 
   let browser = Aliases.browser;
   let textbox = browser.loginPage.pageLeadCreation.pageLeadDetails;
@@ -456,43 +469,46 @@ if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxPostalCod
   Delay(500)
   textbox.txtBoxCity.Click();
   
-//Verify that Postal Code* field is not null
-   if (Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.txtBoxPostalCode != null)
-   {
-    Log.Message("Postal Code* field is not empty")
-   }
+  //Verify that Postal Code* field is not null
+  if (Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.txtBoxPostalCode != null)
+  {
+  Log.Message("Postal Code* field is not empty")
+  }
   else{
-    Log.Message("Postal Code* field is empty")
-      } 
+  Log.Message("Postal Code* field is empty")
+  } 
  
-//Verify that Save button is visible on screen
+  //Verify that Save button is visible on screen
   if (Aliases.browser.loginPage.pageLeadCreation.footerSaveAndOpen.btnSave.VisibleOnScreen)
-   {
-    Aliases.browser.loginPage.pageLeadCreation.footerSaveAndOpen.btnSave.ClickButton();
-    Log.Message("In City* filed icon is clicked")
-   }
+  {
+  Aliases.browser.loginPage.pageLeadCreation.footerSaveAndOpen.btnSave.ClickButton();
+  Log.Message("In City* filed icon is clicked")
+  }
   else{
-    Log.Message("In City* filed icon is not clicked")
-      }
-
-      
-      
+  Log.Message("In City* filed icon is not clicked")
+  }
            
-      aqUtils.Delay(1000);
-//Verify that Actions button is visible on screen
-  /*if (Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.btnActions.VisibleOnScreen)
-   {
-    Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.buttonActions2.ClickButton();
-    Log.Message("Actions button is visible on screen")
-   }
-  else{
-    Log.Message("Actions button is not visible on screen")
-      }
-*/
+  aqUtils.Delay(1000);
+      
+  //Verify that Actions button is visible on screen and click on it
+  aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("//button[.='Actions']"), "VisibleOnScreen", cmpEqual, true);
   aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("//button[.='Actions']"), "contentText", cmpEqual, "Actions");
   Log.Checkpoint("Action button is visible");
   Aliases.browser.loginPage.pageLeadCreation.pageLeadDetails.buttonActions2.ClickButton();
   Log.Checkpoint("Action button is clicked");
+  
+  //Click on Convert to Project Card
+  Aliases.browser.loginPage.buttonConvertToProjectCard.ClickButton();
+
+  
+
+    
+
+  
+  
+  
+  
+  
 
   
 
@@ -516,7 +532,7 @@ if (Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.txtBoxPostalCod
 
 
 
- }
+  }
 
 
 

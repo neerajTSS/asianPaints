@@ -29,12 +29,28 @@
   Log.Checkpoint("FSM link verification pass");
   Log.Message("Verified that FSM option is visible after expanding Sales option"); 
  
- // 
+  Delay(500)
+//Verify the + icon is visible on HomePage 
+  aqObject.CheckProperty(Aliases.browser.loginPage.FindElement("//button[.='Create']"), "contentText", cmpContains, "Create", false);
+  Log.Checkpoint("+ icon verification pass");
+  Log.Message("Verified that + icon is visible on HomePage "); 
 
+//Click on the + icon on HomePage
+  Aliases.browser.loginPage.pageLeadCreation.pageLead.buttonCreate6.ClickButton();
+  Log.Message(" + icon is clicked ");
 
-
-
-
+//Verify that Lead is visible on popup
+  
+  if(Aliases.browser.loginPage.sectionDialog1Cont.txtLeadOnPopup.VisibleOnScreen)
+  {
+    Log.Message("Leads is visible on popup");
+//Click on Lead
+  Aliases.browser.loginPage.sectionDialog1Cont.txtLeadOnPopup.Click();  
+  } 
+  else
+ {
+   Log.Message("Leads is not visible on popup");
+ }
 
   
 

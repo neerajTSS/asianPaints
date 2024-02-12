@@ -1,5 +1,6 @@
-﻿function LoginPage(url, username, password) {
-    // Opens the specified URL in a running instance of the specified browser.
+﻿function ApprovalLoginPage(url, username, password)
+{
+  // Opens the specified URL in a running instance of the specified browser.
     Browsers.Item(btChrome).Navigate(url);
     Log.Message("Verified URL: " + url);
  
@@ -29,10 +30,9 @@
     Log.Message("Verified clicking the login button.");
     
     aqUtils.Delay(2000);
-  Aliases.browser.BrowserWindow.Click(126, 93);   
+    
+  Aliases.browser.BrowserWindow.Click(126, 93);  
   Aliases.browser.loginPage.Confirm.buttonOk.ClickButton();
- 
-
 }
 
 function Test2(){
@@ -53,7 +53,3 @@ function Test2(){
 
     }
 }
-
-
-
-

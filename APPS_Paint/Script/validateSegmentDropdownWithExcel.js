@@ -1,7 +1,7 @@
 ﻿function validateSubSegmentDropdownWithExcel()
 //function validateSubSegmentDropdownWithExcel(PlaceName,Segment)
 {
- /*
+/*
   //Click on 'Leads' 
   Aliases.browser.loginPage.allMenuLinks.linkLink2.Click();
   Log.Message("Verified that Leads option is clicked");
@@ -43,7 +43,9 @@
   aqUtils.Delay(1000);
 //Click on second checkbox under 'MMI Suggested Addresses'
   Aliases.browser.loginPage.pageLeadCreation.pageLead.addressCheckBox.Click();
-*/
+  */
+  
+//Click on the segmentbox
   Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentBox.Click();
   Tables.segmentDropdownValidationExcel.Check();
   Log.Message("Excel");
@@ -103,6 +105,17 @@
   Tables.Segments.Check();
   NameMapping.Sys.browser.loginPage.panel1001Ports.VisibleOnScreen;
   Log.Checkpoint("Energy List Matched");
+  
+  //Click on the Segmentfield and click on the Factories
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.segmentBox.Click();
+  Aliases.browser.loginPage.dropDownListSegment.panel151Factories.Click();
+  Aliases.browser.loginPage.pageLeadCreation.MmiAddressSection.subSegmentDropdownButton.Click();
+  Tables.Segments.Check();
+  Aliases.browser.loginPage.textnodeFactories.txtFactories.VisibleOnScreen;
+  
+  
+  
+  
   
   
 }

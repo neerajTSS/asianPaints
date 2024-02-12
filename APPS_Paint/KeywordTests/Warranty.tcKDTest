@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{7F39533C-4A20-41B9-8A19-8ADFFDC0098C}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Warranty" Unit="Warranty" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{61C588AA-F8CE-4D2A-9A5C-2B356FB9E585}" />
+</Root>
