@@ -47,6 +47,11 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="segmentValidations" key="{B1F8F44B-A0C9-4D43-8120-72935BE5242C}" group="False" parallel="False" enabled="True" testMoniker="{990F98F9-F55B-4143-A492-C8C0434231EE}segmentValidations" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{FB4B8581-69D3-4BA5-97B5-74867116401C}">
@@ -78,7 +83,7 @@
 				</Variable>
 				<Variable Name="Datas" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\Asian_Paint_Data.xlsx" Table="Test_Data$" HasColumnNames="True" />
+						<ConnectionInfo FileName="..\Users\ChinnamaniG\Desktop\AsianPaintData.xlsx" Table="Sheet1$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 				<Variable Name="Var1" Type="DB Table" Local="False">

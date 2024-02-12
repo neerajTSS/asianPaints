@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="AsianPaintData1">
+		<Source Object="C:\Users\ChinnamaniG\Desktop\AsianPaintData.xlsx">
+			<DataExtraction Type="ExcelTableSheet" SheetTitle="Sheet2" FirstRowIsHeader="True" />
+		</Source>
+		<Columns>
+			<Column CompareStyle="Default">SegmentList</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">Infra (New Projects)</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Buildings &amp; Factories</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">PFP</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Pipeline</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Pre Engineered Buildings</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Rail &amp; Metro</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Road and Bridges</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

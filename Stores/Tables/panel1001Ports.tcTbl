@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="panel1001Ports">
+		<Source Object="Aliases.browser.pageLogon.panel1001Ports2">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="ByCoordinates" SelectionPreference="NearestToCenter" HasHeader="True">
+				<Rectangle Left="0" Top="0" Right="575" Bottom="500" />
+			</DataExtraction>
+		</Source>
+		<Columns>
+			<Column>- Ports</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">- Oil &amp; Gas - Maintenance</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Infrastructure</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Oil &amp; Gas - New Projects</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Maintenance and Repair</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Power - New Projects</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Fitout Companies /Joineries</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Energy</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Infra (New Projects)</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Supply Customer</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

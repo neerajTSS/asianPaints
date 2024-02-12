@@ -502,7 +502,867 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode1001Ports" Key="{A3E3E84A-0223-4EE4-82CB-B60769791911}">
+										<Image FileName="1432369659" Left="365" Top="188" Right="940" Bottom="688" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;1001 - Ports&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1001Ports" Key="{2039C298-4AA2-400B-BA1B-629FE7CD65FC}">
+										<Image FileName="1432369659" Left="385" Top="202" Right="920" Bottom="223" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;1001 - Ports&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li[@id=&apos;__item239&apos;]//div[contains(@class, &apos;sapMSLITitleOnly&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__item239-content&apos;]//div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1001Ports2" Key="{1F49CAB7-79F2-4FCF-A239-9ED0A8BCD4F8}">
+										<Image FileName="592278487" Left="365" Top="188" Right="940" Bottom="688" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdownlistbox8d1033a88ed231847248f1761eeea1c7_183-popup-list" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLeadForDifferentTerritory" Key="{32056101-C72F-4298-A569-EF9CEBE808A2}">
+										<Image FileName="9186002" Left="27" Top="405" Right="1876" Bottom="2056" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[contains(@class, &apos;sapUiFormBackgrTranslucent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEngineeringContractors2" Key="{48145C86-871E-49C6-9A05-1161A10A4F6E}">
+										<Image FileName="-579979997" Left="980" Top="165" Right="1555" Bottom="698" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdownlistboxca597c13fe7214b57208b2ec262c7e0e_187-popup-cont" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTitle0Inner" Key="{EC7E3D58-5D1E-4B74-8B20-F7B477C834F1}">
+										<Image FileName="-322809778" Left="937" Top="240" Right="983" Bottom="260" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__title0-inner" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__title0&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageMainshellHeaderIcon" Key="{62A22D9F-549B-4428-A665-12E40371A3F8}">
+										<Image FileName="845093545" Left="73" Top="174" Right="198" Bottom="202" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mainShell-header-icon" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[@title=&apos;Logo&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mainShell-header-hdr-begin&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideMainshellContainerPane" Key="{925FA6C6-10E9-4527-ABB3-BC0651792518}">
+										<Image FileName="-811646250" Left="0" Top="221" Right="300" Bottom="1020" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mainShell-container-pane" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside[@role=&apos;complementary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mainShell-cntnt&apos;]/div/aside[contains(@class, &apos;sapUiUfdSpltContPane&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mainShell-container&apos;]/aside" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mainShell-cntnt&apos;]/div/aside" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink0" Key="{ECFF5984-FD20-42E7-AE09-378E43243CA4}">
+										<Image FileName="-811646250" Left="80" Top="226" Right="300" Bottom="276" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link0" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div2&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout10&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div2&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink1" Key="{F9658093-CB98-4B92-BBCE-1281B44B6513}">
+										<Image FileName="440711980" Left="80" Top="281" Right="300" Bottom="331" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link1" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Calendar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Calendar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div3&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout11&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div3&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink4" Key="{DA90EF02-C36B-4D57-87C7-68C132B389B7}">
+										<Image FileName="-1396734665" Left="80" Top="391" Right="300" Bottom="441" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link4" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Employees&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Employees&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div6&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout14&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div6&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink13" Key="{C4CD6154-734C-447C-B0D2-53F55200ACF3}">
+										<Image FileName="1188817710" Left="80" Top="611" Right="300" Bottom="661" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link13" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Competitors&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Competitors&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div15&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout23&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div15&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink16" Key="{B2C5DC6A-B62B-4C68-AA83-0B614E9785F2}">
+										<Image FileName="-448758105" Left="80" Top="721" Right="300" Bottom="771" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link16" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Library&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Library&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div18&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout26&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div18&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink17" Key="{81773C59-5887-4282-81C3-C51B93E6B4B0}">
+										<Image FileName="1359823792" Left="80" Top="776" Right="300" Bottom="826" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link17" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;NewProductDevelopment View&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;NewProductDevelopment View&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div19&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout27&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div19&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink18" Key="{57020DF5-451A-4131-924A-F12314A0161E}">
+										<Image FileName="-1204939388" Left="80" Top="831" Right="300" Bottom="881" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link18" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Tickets&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Tickets&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div20&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout28&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div20&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink19" Key="{AD9EBC0C-7498-4677-B306-DCE99518A81A}">
+										<Image FileName="1966163920" Left="80" Top="886" Right="300" Bottom="936" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link19" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Visits&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Visits&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div21&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout29&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[@id=&apos;__div21&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeText12" Key="{A0CD56D1-1D38-4FBC-8B89-9426F831279B}">
+										<Image FileName="1399888675" Left="80" Top="350" Right="175" Bottom="373" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__text12" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;Customers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//span[contains(@class, &apos;sapMText&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__toolbar1&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel1&apos;]/header/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeText14" Key="{F0341B53-4AAE-4824-8382-D5F207BCD763}">
+										<Image FileName="-742309884" Left="80" Top="460" Right="130" Bottom="483" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__text14" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;Sales&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel2&apos;]/header//span[contains(@class, &apos;sapMText&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__toolbar2&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel2&apos;]/header/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeText16" Key="{04F8D012-0D75-44A9-98AE-80D7FFAE4E3B}">
+										<Image FileName="401399183" Left="80" Top="515" Right="158" Bottom="538" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__text16" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;Activities&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel3&apos;]/header//span[contains(@class, &apos;sapMText&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__toolbar3&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel3&apos;]/header/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeText18" Key="{E235CB64-6555-4DB4-9645-7D702A2D19B5}">
+										<Image FileName="-1498815014" Left="80" Top="570" Right="152" Bottom="593" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__text18" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;Analysis&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel4&apos;]/header//span[contains(@class, &apos;sapMText&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__toolbar4&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel4&apos;]/header/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeText20" Key="{9A0225E4-0377-4B4D-9F25-74ECACF29666}">
+										<Image FileName="-2830805" Left="80" Top="680" Right="158" Bottom="703" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__text20" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;Products&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel5&apos;]/header//span[contains(@class, &apos;sapMText&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__toolbar5&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel5&apos;]/header/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink5" Key="{8252344B-9F71-4F06-B43A-EFC1469F0763}">
+										<Image FileName="-1037332329" Left="80" Top="496" Right="283" Bottom="546" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link5" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Leads&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Leads&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel2&apos;]//div[@id=&apos;__div7&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout15&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel2&apos;]//div[@id=&apos;__div7&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink6" Key="{5CFAA208-7662-42A0-8A7D-BA4B1474C306}">
+										<Image FileName="-1760585521" Left="80" Top="546" Right="283" Bottom="596" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link6" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Project Cards&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Project Cards&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel2&apos;]//div[@id=&apos;__div8&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout16&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel2&apos;]//div[@id=&apos;__div8&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink7" Key="{280AF794-9497-4B1E-B552-B7FB3E4D4756}">
+										<Image FileName="1202557749" Left="80" Top="596" Right="283" Bottom="646" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link7" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Sales Quotes&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Sales Quotes&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel2&apos;]//div[@id=&apos;__div9&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout17&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel2&apos;]//div[@id=&apos;__div9&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLink8" Key="{CD2D75E1-CB87-453C-852B-14CD9AA578AB}">
+										<Image FileName="1304215638" Left="80" Top="646" Right="283" Bottom="696" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__link8" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;FSM&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;FSM&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel2&apos;]//div[@id=&apos;__div10&apos;]//a[contains(@class, &apos;sapMLnk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout18&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__panel2&apos;]//div[@id=&apos;__div10&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1001Ports3" Key="{2530CC56-7527-4177-ABA6-ECFE0E015633}">
+										<Image FileName="1171794884" Left="365" Top="165" Right="940" Bottom="650" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdownlistbox8d1033a88ed231847248f1761eeea1c7_183-popup-cont" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1001Ports4" Key="{42677FB6-64F9-43D8-B729-430330048AEB}">
+										<Image FileName="757131139" Left="365" Top="248" Right="940" Bottom="748" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapMListBGSolid&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1001Ports5" Key="{AAF16A3C-884E-4EAE-B59E-A685D585EB41}">
+										<Image FileName="-1084254393" Left="365" Top="248" Right="940" Bottom="748" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapMListBGSolid&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1001Ports6" Key="{2E3CDB3A-1C9F-4056-BA44-708EEA96FCE7}">
+										<Image FileName="1761001332" Left="365" Top="248" Right="940" Bottom="748" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapMListBGSolid&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1001Ports7" Key="{672E24CC-E7B0-4D39-93FF-4B13E8EFB17C}">
+										<Image FileName="-1192578868" Left="365" Top="366" Right="940" Bottom="866" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapMListBGSolid&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContent72" Key="{03E3734D-F3EE-4FEC-9E19-BB053880B287}">
+										<Image FileName="955887215" Left="25" Top="306" Right="1895" Bottom="945" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__content7" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapClientMDivContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEngineeringContractors3" Key="{C3E6DF79-E723-4056-9372-5C673DBF2F2B}">
+										<Image FileName="-243369172" Left="980" Top="165" Right="1555" Bottom="617" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[@role=&apos;application&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapMPopoverCont&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionPage3Cont" Key="{9E2AC868-517B-4201-865C-1AF443E9D57D}">
+										<Image FileName="-1598567610" Left="0" Top="281" Right="1920" Bottom="970" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__page3-cont" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__page3&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelGroup18Grid" Key="{5D6F6AF2-9816-4591-B375-1411EEEC88B5}">
+										<Image FileName="-1598567610" Left="327" Top="333" Right="1577" Bottom="1158" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__group18--Grid" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[contains(@class, &apos;sapUiRespGridHSpace0&apos;)]/div/div[contains(@class, &apos;sapUiRespGridHSpace0&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEngineeringContractors4" Key="{EE7B4183-DC5B-4395-A8EE-435A39BA8D29}">
+										<Image FileName="-293278354" Left="980" Top="165" Right="1555" Bottom="617" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[@role=&apos;application&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapMPopoverCont&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEngineeringContractors5" Key="{6475FAC9-ADBF-4C5B-8F3B-401FB0192339}">
+										<Image FileName="-644549889" Left="980" Top="478" Right="1555" Bottom="1034" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[@role=&apos;application&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapMPopoverCont&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEngineeringContractors" Key="{8AF9FA4C-7F92-412E-806C-B6E319F943B4}">
+										<Image FileName="-1117776568" Left="980" Top="478" Right="1538" Bottom="528" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Engineering Contractors&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEngineeringContractors6" Key="{58024B7C-7519-4149-B10D-584574F609B7}">
+										<Image FileName="-644549889" Left="980" Top="478" Right="1555" Bottom="1034" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[@role=&apos;application&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapMPopoverCont&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEngineeringContractors2" Key="{C6C55A44-CEA1-4F82-A4C3-6DE9934A0F4C}">
+										<Image FileName="-1913131411" Left="980" Top="478" Right="1538" Bottom="528" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Engineering Contractors&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEngineeringContractors7" Key="{DBC83EC1-0D04-4166-BE9A-6B5B9BF4E366}">
+										<Image FileName="-1379047797" Left="980" Top="478" Right="1555" Bottom="1034" />
+										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[@role=&apos;application&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sapMPopoverCont&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelParentAccount" Key="{74AC4AE6-2277-4B5B-9C9A-45B0FFC5A6CE}">
+										<Image FileName="-914812096" Left="337" Top="594" Right="952" Bottom="700" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=/html/body/div[2]/div/div/div[3]/section/div/div/div/div[3]/div/section/div[2]/div/div[4]/div/div/div/div[1]/div/div[5]/div/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelProjectType" Key="{086E3DEF-036E-48B9-8305-350839171043}">
+										<Image FileName="-385975154" Left="952" Top="594" Right="1567" Bottom="700" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=/html/body/div[2]/div/div/div[3]/section/div/div/div/div[3]/div/section/div[2]/div/div[4]/div/div/div/div[1]/div/div[6]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionPage1Cont2" Key="{AD7AF599-FC24-4C80-AF29-352C76F94112}">
+										<Image FileName="20223647" Left="0" Top="130" Right="1920" Bottom="819" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__page1-cont" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__page1&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeParentAccount" Key="{6C5F03ED-B9EE-4C54-9813-F75322D0A8A0}">
+										<Image FileName="20223647" Left="357" Top="450" Right="932" Bottom="484" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Parent Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;Key Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[9]//span[contains(@class, &apos;sapMLabel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout80&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//div[@id=&apos;__div1&apos;]//section//div[4]//div[9]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelProjectType2" Key="{4C4D4B9B-C2A1-45AB-9FE3-9422B3C1CF81}">
+										<Image FileName="-1517307719" Left="952" Top="440" Right="1567" Bottom="546" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//div[@id=&apos;__div1&apos;]//section/div[@id=&apos;__content1&apos;]//div[4]//div[10]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSource" Key="{C26A1741-E78C-4BBF-95B1-967181C4732F}">
+										<Image FileName="1900253242" Left="952" Top="478" Right="1567" Bottom="584" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//div[@id=&apos;__div1&apos;]//section/div[@id=&apos;__content1&apos;]//div[4]//div[8]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelParentAccount2" Key="{535A75AF-A744-412E-8A2F-0AD590327959}">
+										<Image FileName="-1291271210" Left="337" Top="529" Right="952" Bottom="635" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Parent Account&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel241Infrastructure" Key="{735DD7A2-AF8E-42F6-BBB3-18A9C81A1059}">
+										<Image FileName="-1793050229" Left="376" Top="529" Right="894" Bottom="550" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;241 - Infrastructure&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li[@id=&apos;__item697&apos;]//div[contains(@class, &apos;sapMSLITitleOnly&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__item697-content&apos;]//div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]/li[@id=&apos;__item697&apos;]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAgricultureFarmEquipment" Key="{5A985DA9-232D-41CE-B578-7E6206A72194}">
+										<Image FileName="1671506647" Left="991" Top="529" Right="1509" Bottom="550" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Agriculture &amp; Farm equipment&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li[@id=&apos;__item771&apos;]//div[contains(@class, &apos;sapMSLITitleOnly&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__item771-content&apos;]//div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]/li[@id=&apos;__item771&apos;]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProjectType" Key="{34A73B96-C31B-4ECA-9016-2C4E595447D1}">
+										<Image FileName="-1342265896" Left="972" Top="539" Right="1547" Bottom="573" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Project Type&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;Project Type&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//section//div[4]//div[10]//span[contains(@class, &apos;sapMLabel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout81&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@role=&apos;main&apos;]//div[@id=&apos;__div1&apos;]//section//div[4]//div[10]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{F8235443-D8F0-41CD-87F8-4198908FD687}">
+								<Image FileName="-1008208735" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{C88B842F-1082-439E-8CA6-682C275F94D2}">
+										<Image FileName="-1008208735" Left="0" Top="151" Right="1920" Bottom="1020" />
+										<TypeInfo Item0="{42A79A86-D5C5-4DB9-8DD0-C256FDBF36ED}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{73A8ADE9-755D-4860-A9B5-1E4F0D7DB223}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{CFD71604-B44F-47E4-BEBE-ED010C424769}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{71352C0A-BD98-4475-AB93-A47DF8015C94}">
+										<TypeInfo Item0="{42A79A86-D5C5-4DB9-8DD0-C256FDBF36ED}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndTaskListThumbnailWnd" Key="{55FFD7BC-B69B-4E6D-9CCC-316A9FA9A763}">
+								<TypeInfo Item0="{1E53ECE0-7CBA-4E07-9445-C6FEBCF4FF59}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskListThumbnailWnd" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -533,7 +1393,7 @@
 				<Child Name="confirmResubmission" Owner="{D5E69BA7-9BC5-44B8-94AD-63B6DE668DB2}">
 					<Child Name="continueButton" Owner="{4775DAC2-E5DD-41B9-B3B7-CDDA4CA5E07D}" />
 				</Child>
-				<Child Name="menuContainer" Owner="{8831983C-6BDC-4D31-AFC8-7C540AD5B3B6}">
+				<Child Name="menuContainer1" Owner="{8831983C-6BDC-4D31-AFC8-7C540AD5B3B6}">
 					<Child Name="leadCreateButton" Owner="{1BB5FCA4-C082-4183-837D-9AC81D07E0F2}" />
 					<Child Name="mobileNumberTextBox" Owner="{AA106D5B-D823-4E36-B675-69C848585081}" />
 					<Child Name="segmentDropdownButton" Owner="{2D71C8CF-516D-48FA-BEDE-A83320C6A6F4}" />
@@ -557,14 +1417,77 @@
 						<Child Name="textnodeItem280" Owner="{C6CFBA75-C95C-42B5-9CE2-C75889750B9B}" />
 						<Child Name="textnodeItem281" Owner="{83F6527B-3BD1-43DF-B4E8-3858E2004996}" />
 						<Child Name="textnodeItem282" Owner="{461D0F39-3F54-449D-9C3B-3F13F4FD7FDE}" />
+						<Child Name="textnodeEngineeringContractors" Owner="{8AF9FA4C-7F92-412E-806C-B6E319F943B4}" />
+						<Child Name="textnodeEngineeringContractors2" Owner="{C6C55A44-CEA1-4F82-A4C3-6DE9934A0F4C}" />
+						<Child Name="panelAgricultureFarmEquipment" Owner="{5A985DA9-232D-41CE-B578-7E6206A72194}" />
 					</Child>
 					<Child Name="list" Owner="{CDAEB7FF-7CE4-4B84-9DFF-7EA9525EDD2E}" />
+					<Child Name="textnodeTitle0Inner" Owner="{EC7E3D58-5D1E-4B74-8B20-F7B477C834F1}" />
+					<Child Name="sectionPage3Cont" Owner="{9E2AC868-517B-4201-865C-1AF443E9D57D}">
+						<Child Name="panelGroup18Grid" Owner="{5D6F6AF2-9816-4591-B375-1411EEEC88B5}" />
+					</Child>
+					<Child Name="sectionPage1Cont2" Owner="{AD7AF599-FC24-4C80-AF29-352C76F94112}">
+						<Child Name="textnodeParentAccount" Owner="{6C5F03ED-B9EE-4C54-9813-F75322D0A8A0}" />
+						<Child Name="panelProjectType2" Owner="{4C4D4B9B-C2A1-45AB-9FE3-9422B3C1CF81}" />
+						<Child Name="panelSource" Owner="{C26A1741-E78C-4BBF-95B1-967181C4732F}" />
+						<Child Name="panelParentAccount2" Owner="{535A75AF-A744-412E-8A2F-0AD590327959}" />
+						<Child Name="textnodeProjectType" Owner="{34A73B96-C31B-4ECA-9016-2C4E595447D1}" />
+					</Child>
 				</Child>
 				<Child Name="homePage" Owner="{67F325B0-0281-4D04-9F11-F1B2ED8F8581}">
 					<Child Name="menuButton" Owner="{B17F0BBF-BF56-43CF-9C7D-50EFF82B3793}" />
+					<Child Name="imageIcon" Owner="{62A22D9F-549B-4428-A665-12E40371A3F8}" />
 				</Child>
 				<Child Name="panelRoadAndBridges" Owner="{A9FFD9C0-D86B-4D85-A0AD-2DB024A3D331}" />
+				<Child Name="textnode1001Ports" Owner="{A3E3E84A-0223-4EE4-82CB-B60769791911}">
+					<Child Name="panel1001Ports" Owner="{2039C298-4AA2-400B-BA1B-629FE7CD65FC}" />
+					<Child Name="panel241Infrastructure" Owner="{735DD7A2-AF8E-42F6-BBB3-18A9C81A1059}" />
+				</Child>
+				<Child Name="panel1001Ports2" Owner="{1F49CAB7-79F2-4FCF-A239-9ED0A8BCD4F8}" />
+				<Child Name="panelLeadForDifferentTerritory" Owner="{32056101-C72F-4298-A569-EF9CEBE808A2}" />
+				<Child Name="panelEngineeringContractors2" Owner="{48145C86-871E-49C6-9A05-1161A10A4F6E}" />
+				<Child Name="menuContainer" Owner="{925FA6C6-10E9-4527-ABB3-BC0651792518}">
+					<Child Name="homeButton" Owner="{ECFF5984-FD20-42E7-AE09-378E43243CA4}" />
+					<Child Name="calenderButton" Owner="{F9658093-CB98-4B92-BBCE-1281B44B6513}" />
+					<Child Name="employeesButton" Owner="{DA90EF02-C36B-4D57-87C7-68C132B389B7}" />
+					<Child Name="competitorsButton" Owner="{C4CD6154-734C-447C-B0D2-53F55200ACF3}" />
+					<Child Name="libraryButton" Owner="{B2C5DC6A-B62B-4C68-AA83-0B614E9785F2}" />
+					<Child Name="newProductButton" Owner="{81773C59-5887-4282-81C3-C51B93E6B4B0}" />
+					<Child Name="ticketsbutton" Owner="{57020DF5-451A-4131-924A-F12314A0161E}" />
+					<Child Name="visitsButton" Owner="{AD9EBC0C-7498-4677-B306-DCE99518A81A}" />
+					<Child Name="leadsButton" Owner="{8252344B-9F71-4F06-B43A-EFC1469F0763}" />
+					<Child Name="projectCardsButton" Owner="{5CFAA208-7662-42A0-8A7D-BA4B1474C306}" />
+					<Child Name="salesQuotesButton" Owner="{280AF794-9497-4B1E-B552-B7FB3E4D4756}" />
+					<Child Name="FSMButton" Owner="{CD2D75E1-CB87-453C-852B-14CD9AA578AB}" />
+					<Child Name="activitiesDropdownButton" Owner="{04F8D012-0D75-44A9-98AE-80D7FFAE4E3B}" />
+					<Child Name="analysisDropdownButton" Owner="{E235CB64-6555-4DB4-9645-7D702A2D19B5}" />
+					<Child Name="customersDropdownButton" Owner="{A0CD56D1-1D38-4FBC-8B89-9426F831279B}" />
+					<Child Name="productsDropdownButton" Owner="{9A0225E4-0377-4B4D-9F25-74ECACF29666}" />
+					<Child Name="salesDropdownButton" Owner="{F0341B53-4AAE-4824-8382-D5F207BCD763}" />
+				</Child>
+				<Child Name="panel1001Ports3" Owner="{2530CC56-7527-4177-ABA6-ECFE0E015633}" />
+				<Child Name="panel1001Ports4" Owner="{42677FB6-64F9-43D8-B729-430330048AEB}" />
+				<Child Name="panel1001Ports5" Owner="{AAF16A3C-884E-4EAE-B59E-A685D585EB41}" />
+				<Child Name="panel1001Ports6" Owner="{2E3CDB3A-1C9F-4056-BA44-708EEA96FCE7}" />
+				<Child Name="panel1001Ports7" Owner="{672E24CC-E7B0-4D39-93FF-4B13E8EFB17C}" />
+				<Child Name="panelContent72" Owner="{03E3734D-F3EE-4FEC-9E19-BB053880B287}" />
+				<Child Name="panelEngineeringContractors3" Owner="{C3E6DF79-E723-4056-9372-5C673DBF2F2B}" />
+				<Child Name="panelEngineeringContractors4" Owner="{EE7B4183-DC5B-4395-A8EE-435A39BA8D29}" />
+				<Child Name="panelEngineeringContractors5" Owner="{6475FAC9-ADBF-4C5B-8F3B-401FB0192339}" />
+				<Child Name="panelEngineeringContractors6" Owner="{58024B7C-7519-4149-B10D-584574F609B7}" />
+				<Child Name="panelEngineeringContractors7" Owner="{DBC83EC1-0D04-4166-BE9A-6B5B9BF4E366}" />
+				<Child Name="segmentButton" Owner="{74AC4AE6-2277-4B5B-9C9A-45B0FFC5A6CE}" />
+				<Child Name="subSegmentButton" Owner="{086E3DEF-036E-48B9-8305-350839171043}" />
 			</Child>
+			<Child Name="wndChrome_WidgetWin_1" Owner="{F8235443-D8F0-41CD-87F8-4198908FD687}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{C88B842F-1082-439E-8CA6-682C275F94D2}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{73A8ADE9-755D-4860-A9B5-1E4F0D7DB223}">
+			<Child Name="wndShell_TrayWnd" Owner="{CFD71604-B44F-47E4-BEBE-ED010C424769}">
+				<Child Name="DesktopWindowXamlSource" Owner="{71352C0A-BD98-4475-AB93-A47DF8015C94}" />
+			</Child>
+			<Child Name="wndTaskListThumbnailWnd" Owner="{55FFD7BC-B69B-4E6D-9CCC-316A9FA9A763}" />
 		</Child>
 	</LogicalNodes>
 </Root>

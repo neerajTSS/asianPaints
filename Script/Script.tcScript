@@ -3,7 +3,9 @@
 	<children>
 		<child name="Login_Page" key="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}" path="Login_Page.js" />
 		<child name="Lead_Page" key="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}" path="Lead_Page.js" />
-		<child name="subSegmentValidation" key="{414F05D7-236B-4299-8FBE-C579951C8FFD}" path="subSegmentValidation.js" />
 		<child name="Home_Page" key="{2237AD35-0AE6-434C-9D23-47903E514ADD}" path="Home_Page.js" />
+		<child name="trail" key="{BE32C632-F4F0-47F1-9030-B1F695C8A4C1}" path="trail.js" />
+		<child name="SegmentList" key="{990F98F9-F55B-4143-A492-C8C0434231EE}" path="SegmentList.js" />
+		<child name="SegmentToExcel" key="{4E010C39-481A-4394-BF32-13BBB7B599B6}" path="SegmentToExcel.js" />
 	</children>
 </Root>

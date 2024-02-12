@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="panelEngineeringContractors">
+		<Source Object="Aliases.browser.pageLogon.panelEngineeringContractors3">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="ByCoordinates" SelectionPreference="NearestToCenter" HasHeader="True">
+				<Rectangle Left="0" Top="0" Right="575" Bottom="452" />
+			</DataExtraction>
+		</Source>
+		<Columns>
+			<Column>Engineering Contractors</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">Hydro &amp; Solar</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Agriculture &amp; Farm equipment</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Construction &amp; Earth moving</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Control panel boards</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">E-Charging stations</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Electric vehicle</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Enginnering &amp; Machine tools</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Export</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>
