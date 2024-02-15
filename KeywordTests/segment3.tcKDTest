@@ -6,6 +6,37 @@
 				<NodeBitmaps />
 			</Extenders>
 		</Data>
+		<Children>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageLogon.leadContainer.sectionDetail4Cont.buttonActions" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Actions" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
+				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://my349520.crm.ondemand.com/sap/ap/ui/clogin?saml2=disabled&amp;app.component=%2fSAP_UI_CT%2fMain%2froot.uiccwoc&amp;rootWindow=X&amp;redirectUrl=%2fsap%2fpublic%2fbyd%2fruntime&amp;supressAutoLogon=true#Nav/1/eyJ0aGluZ3BhcmFtcyI6eyJLZXkiOiJDRDkzQkY3OEE1NEUxRURFQjJGQjRGNzMxOTcwNDM4NiIsIlNvdXJjZVBhdGgiOiIvUm9vdC8kVGhpbmdIZWFkZXIvSUQifSwiaW5Qb3J0IjoiSW5zcGVjdCIsInRhcmdldCI6Ii9CWURfQ09EL1NhbGVzT25EZW1hbmQvTWFya2V0aW5nL1Byb3NwZWN0L0NPRF9Na3RfUHJvc3BlY3QuVEkudWljb21wb25lbnQiLCJ3aW5JZCI6ImJlNzJkM2VjNTA2NzkzMzdkNDkzOWEyNjQ4Mzg0MTczIn0=" />
+						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Action="Maximize" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogon.leadContainer.sectionDetail4Cont.buttonActions;" />
+				</Data>
+			</Operation>
+		</Children>
 	</TestData>
 	<Parameters Key="{7DB1B8FF-3711-49B0-B2B0-EA168CDE3036}" />
 </Root>

@@ -31,7 +31,7 @@
         // Refresh the page.
         Aliases.browser.BrowserWindow.Click(123, 80);
         Aliases.browser.pageLogon.confirmResubmission.continueButton.ClickButton();
-        Delay(2000);
+        Delay(3000);
         aqObject.CheckProperty(Aliases.browser.pageLogon.homePage.menuButton, "contentText", cmpEqual, "");
         Log.Message("Verified that after login to the application user redirect to the Home screen");
     }

@@ -14,16 +14,8 @@
 			<child name="segment" key="{F309CC44-2A68-49BD-BC93-B9439803660E}" path="segment.tcKDTest" />
 		</folder>
 		<folder name="SubSegment_Validation">
-			<child name="Segment1" key="{12EBA4CB-8579-49AD-991A-7457FBCBAC65}" path="Segment1.tcKDTest" />
-			<child name="segment2" key="{7BCB6949-677C-4DA7-89F7-2379695D6335}" path="segment2.tcKDTest" />
-			<child name="segment3" key="{5BCBFC92-9739-4578-8AF6-5DDA7ADC73AF}" path="segment3.tcKDTest" />
-			<child name="segment4" key="{F4311CA6-391E-4874-9FB6-3C13298D4022}" path="segment4.tcKDTest" />
-			<child name="segment5" key="{FB5608F5-A955-42EE-884C-29B9F7308959}" path="segment5.tcKDTest" />
-			<child name="segment6" key="{E471D109-5CBF-48BB-B248-98B1E656D76D}" path="segment6.tcKDTest" />
-			<child name="segment7" key="{A4969FAE-6B75-43A1-83AE-C627842B7035}" path="segment7.tcKDTest" />
-			<child name="segment8" key="{1BF57B31-3DA3-444E-936C-8D4FFF6CD32C}" path="segment8.tcKDTest" />
-			<child name="segment9" key="{2C034AFA-1017-4CFD-B823-0619096A72FD}" path="segment9.tcKDTest" />
-			<child name="segment10" key="{6FF1240A-7677-4527-9ED7-44642E6BCDC9}" path="segment10.tcKDTest" />
+			<child name="subsegment" key="{311B9549-3C43-49B2-8F3A-D31F06BCA329}" path="subsegment.tcKDTest" />
 		</folder>
+		<folder name="Datas" />
 	</children>
 </Root>

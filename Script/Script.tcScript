@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
+		<folder name="SubSegmentValidation">
+			<child name="Infra_NewProjects" key="{E2094790-99E6-42A5-99B1-1C3B208C447B}" path="Infra_NewProjects.js" />
+			<child name="Energy" key="{8255715C-700D-4F6C-A822-44187697C4BE}" path="Energy.js" />
+			<child name="Fitout_Companies" key="{562DE4CC-0437-4C78-B751-E135E4915361}" path="Fitout_Companies.js" />
+			<child name="Infrastructure" key="{020F6B15-1F1C-4AA2-883C-F9665334E329}" path="Infrastructure.js" />
+			<child name="Maintenance" key="{F3FA69C4-B98E-4A12-8C76-50A33C2F19AD}" path="Maintenance.js" />
+			<child name="Oil_Gas_NewProjects" key="{FC0F1F8D-5393-4989-A679-4B8318406C39}" path="Oil_Gas_NewProjects.js" />
+			<child name="Ports" key="{1AE1C126-A10E-4FA8-BCD4-B5340ADAFB39}" path="Ports.js" />
+			<child name="Power_NewProjects" key="{076063FD-C22C-4936-A62A-E6FC830AF6F8}" path="Power_NewProjects.js" />
+			<child name="Supply_Customer" key="{1779DAE1-6995-46E0-ACFF-2D93AA9D387C}" path="Supply_Customer.js" />
+			<child name="Oil_Gas_Maintenance" key="{D984A33A-054C-4C87-9541-89A60C4C86F5}" path="Oil_Gas_Maintenance.js" />
+		</folder>
 		<child name="Login_Page" key="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}" path="Login_Page.js" />
 		<child name="Lead_Page" key="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}" path="Lead_Page.js" />
 		<child name="Home_Page" key="{2237AD35-0AE6-434C-9D23-47903E514ADD}" path="Home_Page.js" />
-		<child name="trail" key="{BE32C632-F4F0-47F1-9030-B1F695C8A4C1}" path="trail.js" />
-		<child name="SegmentList" key="{990F98F9-F55B-4143-A492-C8C0434231EE}" path="SegmentList.js" />
-		<child name="SegmentToExcel" key="{4E010C39-481A-4394-BF32-13BBB7B599B6}" path="SegmentToExcel.js" />
+		<child name="Segment_Test" key="{4E010C39-481A-4394-BF32-13BBB7B599B6}" path="Segment_Test.js" />
+		<child name="ConvertToProjectCard" key="{8BAFEFD9-2705-4C36-B156-D672DE58BDE4}" path="ConvertToProjectCard.js" />
 	</children>
 </Root>
