@@ -10,3 +10,6 @@
   Aliases.browser.pageLogon.headerMainshellNRJ.buttonYes.ClickButton();
   Aliases.browser.BrowserWindow.Close();
 }
+
+
+//tamil//   
