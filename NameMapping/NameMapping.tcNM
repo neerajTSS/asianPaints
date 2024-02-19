@@ -239,9 +239,6 @@
 											<Selector>
 												<Value Value="xpath=//div[@id=&apos;__composite13&apos;]//input" />
 											</Selector>
-											<Selector>
-												<Value Value="Add selector" />
-											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="textboxDropdownlistbox2ddc0b2292" Key="{2D71C8CF-516D-48FA-BEDE-A83320C6A6F4}">
@@ -441,7 +438,7 @@
 										<TypeInfo Item0="{CF168894-8760-4EC2-9653-CFED4DEB0D00}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//*[@id=&apos;dropdownlistboxca597c13fe7214b57208b2ec262c7e0e_187-popup-list-listUl&apos;]/li/div/div/div" />
+												<Value Value="xpath=//ul[starts-with(@id, &apos;dropdownlistboxca597c13fe7214b57208b2ec262c7e0e_68-popup-list-listUl&apos;) and contains(@class, &apos;sapMListUl&apos;) and @role=&apos;listbox&apos;]/li[contains(@class, &apos;sapMSLI&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -973,6 +970,23 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeEngineeringContractors" Key="{75CCC8F0-B2B3-4C47-9C52-F9B8CF487D14}">
+										<Image FileName="847524493" Left="1121" Top="156" Right="1679" Bottom="3356" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Engineering Contractors&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEngineeringContractors2" Key="{95C554BA-7B3E-49EA-A591-D267529016A0}">
+										<Image FileName="847524493" Left="1141" Top="170" Right="1659" Bottom="191" />
+										<TypeInfo Item0="{55D1383F-E42D-4034-9BC4-CF62E242984A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Engineering Contractors&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -1031,6 +1045,7 @@
 					<Child Name="parentAccount" Owner="{154D7D7D-70B6-45C0-B4D7-4A393AD4846D}" />
 					<Child Name="postalCode" Owner="{EE4000E1-24F1-4911-8838-C2C18C482524}" />
 					<Child Name="subLineOfBusiness" Owner="{83B2BF2D-CBB4-4BD4-89BA-1AAF16E36EC2}" />
+					<Child Name="subsegmentDropdownElements" Owner="{2039C298-4AA2-400B-BA1B-629FE7CD65FC}" />
 				</Child>
 				<Child Name="homePage" Owner="{67F325B0-0281-4D04-9F11-F1B2ED8F8581}">
 					<Child Name="menuButton" Owner="{B17F0BBF-BF56-43CF-9C7D-50EFF82B3793}" />
@@ -1057,9 +1072,11 @@
 				</Child>
 				<Child Name="segmentButton" Owner="{74AC4AE6-2277-4B5B-9C9A-45B0FFC5A6CE}" />
 				<Child Name="subSegmentButton" Owner="{086E3DEF-036E-48B9-8305-350839171043}" />
-				<Child Name="subsegmentDropdownElements" Owner="{2039C298-4AA2-400B-BA1B-629FE7CD65FC}" />
 				<Child Name="sectionDialog" Owner="{40CE8AEE-B085-465B-B0DE-51F56DCBF018}">
 					<Child Name="leadOption" Owner="{1198F13F-2D1C-4C5B-9539-E740EE3E1A26}" />
+				</Child>
+				<Child Name="textnodeEngineeringContractors" Owner="{75CCC8F0-B2B3-4C47-9C52-F9B8CF487D14}">
+					<Child Name="panelEngineeringContractors2" Owner="{95C554BA-7B3E-49EA-A591-D267529016A0}" />
 				</Child>
 			</Child>
 		</Child>

@@ -1,42 +1,53 @@
-﻿var excelDriverExecuted = false; // Declare the flag outside the function
+﻿function readJsonFile(jsonFilePath) {
+    // Create a File object to read the JSON file
+    var file = aqFile.OpenTextFile(jsonFilePath, aqFile.faRead, aqFile.ctANSI);
+    // Read the entire content of the file
+    var jsonContent = file.ReadAll();
+    // Close the file
+    file.Close();
+    // Parse the JSON content into an object
+    return JSON.parse(jsonContent);
+}
+
+var excelDriverExecuted = false; // Declare the flag outside the function
 
 function validateElementsWithExcel() {
+  
+    var jsonFilePath = "TestData\\Data.json";
+    // Retrieve username, password, and URL from JSON file
+    var jsonData = readJsonFile(jsonFilePath);
+    var excelpath = jsonData.Excelpath;
+    var sheetname = jsonData.ExcelSheetName;
+    var segment = jsonData.SegmentItemName;
     // Load Excel driver for segments
-    var excelDriverSegments = DDT.ExcelDriver("C:\\Users\\ChinnamaniG\\Desktop\\AsianPaintData.xlsx","611 - Energy");
+    var excelDriverSegments = DDT.ExcelDriver(excelpath,sheetname);
     var excelValuesSegments = [];
     // Check if validation has already been performed for segments
     if (excelDriverExecuted) {
         Log.Warning("Validation for segments already executed. Exiting function.");
         return;
     }
-
-    // Array to store Excel values for segments
-
     // Click on the segment dropdown button
     Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Click();
-   var segment ="Energy";
-    var segmentElement = Aliases.browser.pageLogon.FindElement("//*[@id='dropdownlistbox8d1033a88ed231847248f1761eeea1c7_5202-popup-list-listUl']/li/div/div/div[contains(text(),'" + segment + "')]");
+    var segmentElement = Aliases.browser.pageLogon.FindElement("//li[contains(@class,'sapMSLI') and .//div[@class='sapMSLITitleOnly' and contains(text(),'" + segment + "')]]");
     segmentElement.Click();
     Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Click();
     Delay(3000);
-
     // Find all elements in the segment dropdown
-    var subsegmentDropdownElements = Aliases.browser.pageLogon.subsegmentDropdownElements;
-    Log.Warning("count is " + subsegmentDropdownElements.length);
-
+    var subsegmentElements = Aliases.browser.pageLogon.leadContainer.FindElements("//ul[starts-with(@id, 'dropdownlistboxca597c13fe7214b57208b2ec262c7e0e_68-popup-list-listUl') and contains(@class, 'sapMListUl') and @role='listbox']/li[contains(@class, 'sapMSLI')]");
+    Log.Warning("count is " + subsegmentElements.length);
     // Clear the array before loading new values
     excelValuesSegments = [];
-
     // Load all Excel values for segments into an array
-    while (!excelDriverSegments.EOF()) {
+        while (!excelDriverSegments.EOF()) {
         var excelValueSegment = excelDriverSegments.Value(0);
         excelValuesSegments.push(excelValueSegment);
         excelDriverSegments.Next();
     }
 
     // Iterate through segment elements
-    for (var i = 0; i < subsegmentDropdownElements.length; i++) {
-        var elementTextSegment = subsegmentDropdownElements[i].contentText;
+    for (var i = 0; i < subsegmentElements.length; i++) {
+        var elementTextSegment = subsegmentElements[i].contentText;
 
         // Flag to check if the element text is found in Excel
         var foundSegment = false;
@@ -56,14 +67,13 @@ function validateElementsWithExcel() {
         }
     }
 
-    // Perform the click action after subsegment validation
     // Click on the last subsegment element
-    var lastSubsegmentElement = subsegmentDropdownElements[subsegmentDropdownElements.length - 1];
+    Delay(3000);
+    var lastSubsegmentElement = subsegmentElements[subsegmentElements.length - 1];
     lastSubsegmentElement.Click();
-
     // Set the flag to indicate that the validation for segments has been executed
     excelDriverExecuted = true;
 }
 
 // Call the function to validate elements against Excel values for segments
-validateElementsWithExcel();
+    validateElementsWithExcel();

@@ -18,5 +18,6 @@
 		<child name="Home_Page" key="{2237AD35-0AE6-434C-9D23-47903E514ADD}" path="Home_Page.js" />
 		<child name="Segment_Test" key="{4E010C39-481A-4394-BF32-13BBB7B599B6}" path="Segment_Test.js" />
 		<child name="ConvertToProjectCard" key="{8BAFEFD9-2705-4C36-B156-D672DE58BDE4}" path="ConvertToProjectCard.js" />
+		<child name="login" key="{D91BEEE8-1422-404E-BC54-45C366F0B662}" path="login.js" />
 	</children>
 </Root>

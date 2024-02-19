@@ -1,5 +1,28 @@
-﻿function Lead_Page(PlaceName, LastPaintingCycle, CustomerName, CustomerMobileNo, CustomerEmail) {
+﻿function readJsonFile(jsonFilePath) {
+    // Create a File object to read the JSON file
+    var file = aqFile.OpenTextFile(jsonFilePath, aqFile.faRead, aqFile.ctANSI);
+
+    // Read the entire content of the file
+    var jsonContent = file.ReadAll();
+
+    // Close the file
+    file.Close();
+
+    // Parse the JSON content into an object
+    return JSON.parse(jsonContent);
+}
+function Lead_Page() {
   
+   var jsonFilePath = "TestData\\Data.json";
+
+    // Retrieve username, password, and URL from JSON file
+    var jsonData = readJsonFile(jsonFilePath);
+    var PlaceName = jsonData.PlaceName;
+    var LastPaintingCycle = jsonData.LastPaintingCycle;
+    var CustomerName = jsonData.CustomerName;
+    var CustomerMobileNo = jsonData.CustomerMobileNo;
+    var CustomerEmail = jsonData.CustomerEmail;
+    
 //Log: Verify the + icon is visible on HomePage.
  aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.leadCreateButton, "title", cmpEqual, "Create");
  Log.Message("Verify the + icon is visible on HomePage.");
@@ -30,7 +53,7 @@ Aliases.browser.pageLogon.sectionDialog.leadOption.Click();
 
     // Click on 'Search Site' button
     Aliases.browser.pageLogon.leadContainer.searchSiteButton.ClickButton();
-    Delay(1000);
+    Delay(5000);
 
     // Click on addressCheckBox
     Aliases.browser.pageLogon.leadContainer.addressCheckBox.Click();
@@ -51,14 +74,14 @@ else
 
     // Click on segmentDropdownButton and select the last item
     Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Click();
-    Delay(1000);
+    Delay(3000);
     Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Keys("[Down]");
     Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Keys("[Enter]");
     Log.Message("Selected the last item from 'segmentDropdownButton'.");
 
     // Click on subSegmentDropdownButton and select the last item
     Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Click();
-    Delay(1000);
+    Delay(3000);
     Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Keys("[Down]");
     Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Keys("[Enter]");
     Log.Message("Selected the last item from 'subSegmentDropdownButton'.");
@@ -67,7 +90,7 @@ else
     InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.stageDropdownButton);
     InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.sourceDropdownButton);
     InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.projectTypeDropdownButton);
-    InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.stateDropdownButton);
+    //InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.stateDropdownButton);
     InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.jobTitleDropdownButton);
     
  

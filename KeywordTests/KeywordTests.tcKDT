@@ -16,6 +16,5 @@
 		<folder name="SubSegment_Validation">
 			<child name="subsegment" key="{311B9549-3C43-49B2-8F3A-D31F06BCA329}" path="subsegment.tcKDTest" />
 		</folder>
-		<folder name="Datas" />
 	</children>
 </Root>
