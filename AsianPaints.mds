@@ -9,26 +9,17 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{12B79B5D-5198-449E-A2AD-73B6DB0C714E}" version="14">
 		<children>
-			<testItem name="Login_Page" key="{6F846E7B-EEC8-4235-841F-2163E2D53BBB}" group="False" parallel="False" enabled="True" testMoniker="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}Login_Page" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="url" type="3" localVarName="" varType="0" value="" />
-					<param1 name="username" type="3" localVarName="" varType="0" value="" />
-					<param2 name="password" type="3" localVarName="" varType="0" value="" />
-				</testParameters>
+			<testItem name="Login_Page" key="{710EEBE2-F263-419B-ADED-EF093C588702}" group="False" parallel="False" enabled="True" testMoniker="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}Login_Page" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="Test2" key="{A6D62111-A987-4490-A020-F54F4286BB25}" group="False" parallel="False" enabled="True" testMoniker="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}Test2" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Home_Page" key="{EF6B8176-EF2B-4C5E-9096-6740B80FF392}" group="False" parallel="False" enabled="True" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}Home_Page" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="Home_Page" key="{932FE8C4-CBB5-4AB8-B447-4F501B8DBFEC}" group="False" parallel="False" enabled="True" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}Home_Page" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="CheckMenuLink" key="{2293E3B7-76CF-4E63-A244-5AEECB8CB66D}" group="False" parallel="False" enabled="True" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}CheckMenuLink" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="CheckMenuLink" key="{339F20B1-FA47-4739-87BD-58A8B1FDF09C}" group="False" parallel="False" enabled="True" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}CheckMenuLink" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters>
 					<param0 name="linkName" type="3" localVarName="" varType="0" value="" />
 					<param1 name="linkObject" type="3" localVarName="" varType="0" value="" />
@@ -36,20 +27,21 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="Lead_Page" key="{C3E022A4-5C62-47ED-825F-8E54FCF2CBE4}" group="False" parallel="False" enabled="True" testMoniker="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}Lead_Page" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="PlaceName" type="3" localVarName="" varType="0" value="" />
-					<param1 name="LastPaintingCycle" type="3" localVarName="" varType="0" value="" />
-					<param2 name="CustomerName" type="3" localVarName="" varType="0" value="" />
-					<param3 name="CustomerMobileNo" type="3" localVarName="" varType="0" value="" />
-					<param4 name="CustomerEmail" type="3" localVarName="" varType="0" value="" />
-				</testParameters>
+			<testItem name="subsegment" key="{CF152001-B8DD-41AF-BDEF-24B9C0CD369E}" group="False" parallel="False" enabled="True" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}subsegment" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="Lead_Page" key="{0DAE942A-25AE-499F-BE3F-45B64D323E4A}" group="False" parallel="False" enabled="True" testMoniker="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}Lead_Page" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="segmentValidations" key="{B1F8F44B-A0C9-4D43-8120-72935BE5242C}" group="False" parallel="False" enabled="True" testMoniker="{990F98F9-F55B-4143-A492-C8C0434231EE}segmentValidations" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
+			<testItem name="InteractWithDropdown" key="{8549E775-0A37-4123-BB00-8A293EDF183A}" group="False" parallel="False" enabled="True" testMoniker="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}InteractWithDropdown" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters>
+					<param0 name="dropdownButton" type="3" localVarName="" varType="0" value="" />
+				</testParameters>
+				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
 		</children>

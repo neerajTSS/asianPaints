@@ -13,11 +13,19 @@
 			<child name="Supply_Customer" key="{1779DAE1-6995-46E0-ACFF-2D93AA9D387C}" path="Supply_Customer.js" />
 			<child name="Oil_Gas_Maintenance" key="{D984A33A-054C-4C87-9541-89A60C4C86F5}" path="Oil_Gas_Maintenance.js" />
 		</folder>
+		<folder name="Utilities">
+			<child name="JsonReader" key="{8FAD5537-D97B-49D0-A82E-0BC11F91E64B}" path="JsonReader.js" />
+			<child name="ExcelReader" key="{CCE65069-05A7-4FB6-AFE5-364D1D0EE42D}" path="ExcelReader.js" />
+		</folder>
+		<folder name="Bath">
+			<child name="LoginPage" key="{8C0DEFB8-F103-49E1-A3C6-FFD8E4099345}" path="LoginPage.js" />
+		</folder>
 		<child name="Login_Page" key="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}" path="Login_Page.js" />
 		<child name="Lead_Page" key="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}" path="Lead_Page.js" />
 		<child name="Home_Page" key="{2237AD35-0AE6-434C-9D23-47903E514ADD}" path="Home_Page.js" />
 		<child name="Segment_Test" key="{4E010C39-481A-4394-BF32-13BBB7B599B6}" path="Segment_Test.js" />
 		<child name="ConvertToProjectCard" key="{8BAFEFD9-2705-4C36-B156-D672DE58BDE4}" path="ConvertToProjectCard.js" />
 		<child name="login" key="{D91BEEE8-1422-404E-BC54-45C366F0B662}" path="login.js" />
+		<child name="Unit3" key="{82A7D414-9F45-4272-8237-67FBE6EE57ED}" path="Unit3.js" />
 	</children>
 </Root>

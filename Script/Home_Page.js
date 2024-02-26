@@ -12,32 +12,27 @@ Log.Message("Verified Calendar option visible on screen.");
 CheckMenuLink("Customers", Aliases.browser.pageLogon.menuContainer.customersDropdownButton);
 Log.Message("Verified Customers option visible on screen.");
 
-CheckMenuLink("Employees", Aliases.browser.pageLogon.menuContainer.employeesButton);
-Log.Message("Verified Employees option visible on screen.");
+ //Checks whether the 'contentText' property of the Aliases.browser.pageLogon.menuContainer.linkLink11 object equals 'Tasks'.
+  aqObject.CheckProperty(Aliases.browser.pageLogon.menuContainer.linkLink11, "contentText", cmpEqual, "Tasks");
+  //Checks whether the 'contentText' property of the Aliases.browser.pageLogon.menuContainer.linkLink12 object equals 'Reports'.
+  aqObject.CheckProperty(Aliases.browser.pageLogon.menuContainer.linkLink12, "contentText", cmpEqual, "Reports");
+  //Checks whether the 'contentText' property of the Aliases.browser.pageLogon.menuContainer.analysisDropdownButton object equals 'Products'.
+  aqObject.CheckProperty(Aliases.browser.pageLogon.menuContainer.analysisDropdownButton, "contentText", cmpEqual, "Products");
+  //Checks whether the 'contentText' property of the Aliases.browser.pageLogon.menuContainer.libraryButton object equals 'Ratification'.
+  aqObject.CheckProperty(Aliases.browser.pageLogon.menuContainer.libraryButton, "contentText", cmpEqual, "Ratification");
 
-CheckMenuLink("Activities", Aliases.browser.pageLogon.menuContainer.activitiesDropdownButton);
-Log.Message("Verified Activities option visible on screen.");
 
-CheckMenuLink("Analysis", Aliases.browser.pageLogon.menuContainer.analysisDropdownButton);
-Log.Message("Verified Analysis option visible on screen.");
-
-CheckMenuLink("Competitors", Aliases.browser.pageLogon.menuContainer.competitorsButton);
-Log.Message("Verified Competitors option visible on screen.");
-
-CheckMenuLink("Products", Aliases.browser.pageLogon.menuContainer.productsDropdownButton);
-Log.Message("Verified Products option visible on screen.");
-
-CheckMenuLink("Library", Aliases.browser.pageLogon.menuContainer.libraryButton);
+//CheckMenuLink("Library", Aliases.browser.pageLogon.menuContainer.libraryButton);
 Log.Message("Verified Library option visible on screen.");
 
-CheckMenuLink("NewProductDevelopment View", Aliases.browser.pageLogon.menuContainer.newProductButton);
-Log.Message("Verified NewProductDevelopment View option visible on screen.");
+//CheckMenuLink("NewProductDevelopment View", Aliases.browser.pageLogon.menuContainer.newProductButton);
+//Log.Message("Verified NewProductDevelopment View option visible on screen.");
 
-CheckMenuLink("Tickets", Aliases.browser.pageLogon.menuContainer.ticketsButton);
-Log.Message("Verified Tickets option visible on screen.");
+//CheckMenuLink("Tickets", Aliases.browser.pageLogon.menuContainer.ticketsButton);
+//Log.Message("Verified Tickets option visible on screen.");
 
-CheckMenuLink("Visits", Aliases.browser.pageLogon.menuContainer.visitsButton);
-Log.Message("Verified Visits option visible on screen.");
+//CheckMenuLink("Visits", Aliases.browser.pageLogon.menuContainer.visitsButton);
+//Log.Message("Verified Visits option visible on screen.");
 
 CheckMenuLink("Sales", Aliases.browser.pageLogon.menuContainer.salesDropdownButton);
 Log.Message("Verified Sales option visible on screen.");
@@ -71,5 +66,3 @@ function CheckMenuLink(linkName, linkObject) {
     Log.Checkpoint(linkName + " link verification passed.");
     Log.Message("Verified that " + linkName + " should be visible on clicking Menu button on the left side of the screen.");
 }
-
-

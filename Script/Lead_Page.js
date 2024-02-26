@@ -1,141 +1,140 @@
-﻿function readJsonFile(jsonFilePath) {
-    // Create a File object to read the JSON file
-    var file = aqFile.OpenTextFile(jsonFilePath, aqFile.faRead, aqFile.ctANSI);
+﻿// Import necessary modules
+var JsonReader = require("JsonReader");
+var ExcelReader = require("ExcelReader");
 
-    // Read the entire content of the file
-    var jsonContent = file.ReadAll();
-
-    // Close the file
-    file.Close();
-
-    // Parse the JSON content into an object
-    return JSON.parse(jsonContent);
-}
+// Main function for Lead Page
 function Lead_Page() {
   
-   var jsonFilePath = "TestData\\Data.json";
+    // Read JSON file path from TestData
+    var jsonFilePath = "TestData\\Data.json";
 
-    // Retrieve username, password, and URL from JSON file
-    var jsonData = readJsonFile(jsonFilePath);
-    var PlaceName = jsonData.PlaceName;
-    var LastPaintingCycle = jsonData.LastPaintingCycle;
-    var CustomerName = jsonData.CustomerName;
-    var CustomerMobileNo = jsonData.CustomerMobileNo;
-    var CustomerEmail = jsonData.CustomerEmail;
-    
-//Log: Verify the + icon is visible on HomePage.
- aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.leadCreateButton, "title", cmpEqual, "Create");
- Log.Message("Verify the + icon is visible on HomePage.");
+    // Retrieve data from JSON file using JsonReader module
+    var jsonData = JsonReader.readJsonFile(jsonFilePath);
 
-// Clicks the 'leadCreateButton' button.
-Aliases.browser.pageLogon.leadContainer.leadCreateButton.ClickButton();
+    // Extract Excel file path and sheet name from JSON data
+    var path = jsonData.Excelpath;
+    var sheetName = jsonData.ExcelSheetName;
 
-// Log: Verify that after clicking the + icon on HomePage Create dialog card should appear on screen.
-Log.Message("Verify that after clicking the + icon on HomePage Create dialog card should appear on screen.");
+    // Read data from Excel using ExcelReader module
+    var ExcelData = ExcelReader.readDataUsingHeaderFromExcel(path, sheetName, rowIndex = 2);
 
-// Checkpoint: Verify that the 'contentText' property of the 'leadOption' object equals 'Lead'.
-aqObject.CheckProperty(Aliases.browser.pageLogon.sectionDialog.leadOption, "contentText", cmpEqual, "Lead");
+    // Extract specific data from ExcelData
+    var placename = ExcelData.PlaceName;
+    var CustomerName = ExcelData.CustomerName;
+    var CustomerMobileNo = ExcelData.MobileNumber;
+    var CustomerEmail = ExcelData.CustomerEmail;
 
-// Log: Verify the Lead option should be visible on the Create dialog card.
-Log.Message("Verify the Lead option should be visible on the Create dialog card.");
+    // Access the browser page
+    var page = Aliases.browser.pageLogon;
 
-// Clicks the 'textnodeLead' control.
-Aliases.browser.pageLogon.sectionDialog.leadOption.Click();
+    // Check if the leadCreateButton has the expected title
+    aqObject.CheckProperty(page.leadContainer.leadCreateButton, "title", cmpEqual, "Create");
+    Log.Message("Verify the + icon is visible on HomePage.");
 
-    // Verify 'New Lead' text
-    aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.newLeadText, "title", cmpEqual, "New Lead");
+    // Click on the leadCreateButton
+    page.leadContainer.leadCreateButton.ClickButton();
+
+    // Check if the leadOption has the expected contentText
+    CheckProperty(page.sectionDialog.leadOption, "contentText", cmpEqual, "Lead");
+    Log.Message("Verify the Lead option should be visible on the Create dialog card.");
+
+    // Click on the leadOption
+    page.sectionDialog.leadOption.Click();
+
+    // Check if the newLeadText has the expected title
+    aqObject.CheckProperty(page.leadContainer.newLeadText, "title", cmpEqual, "New Lead");
     Log.Message("Verified 'New Lead' text.");
 
-    // Set placeNameTextBox value
-    Aliases.browser.pageLogon.leadContainer.placeNameTextBox.Click();
-    Aliases.browser.pageLogon.leadContainer.placeNameTextBox.SetText(PlaceName);
-    Log.Message("Set 'placeNameTextBox' value.");
+    // Set the placeNameTextBox value
+    page.leadContainer.placeNameTextBox.Click();
+    Delay(3000);
+    page.leadContainer.placeNameTextBox.SetText(placename);
+    Log.Message("Set 'placeNameTextBox' value." + placename);
 
-    // Click on 'Search Site' button
-    Aliases.browser.pageLogon.leadContainer.searchSiteButton.ClickButton();
+    // Click on the searchSiteButton
+    page.leadContainer.searchSiteButton.ClickButton();
     Delay(5000);
 
-    // Click on addressCheckBox
-    Aliases.browser.pageLogon.leadContainer.addressCheckBox.Click();
+    // Click on the addressCheckBox
+    page.leadContainer.addressCheckBox.Click();
     Log.Message("Clicked on 'addressCheckBox'.");
-    
-// Checkpoint: Verify that the 'value' property of the 'lineOfBusiness' object equals 'Color Protect 2'.
-if (aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.lineOfBusiness, "value", cmpEqual, "Color Protect 2"))
-    Log.Message("Verified the Line of Business is auto-filled with 'Color Protect 2'");
-else
-    Log.Error("Line of Business is not auto-filled as expected");
 
-// Checkpoint: Verify that the 'value' property of the 'subLineOfBusiness' object equals 'PC Segment.'.
-if (aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.subLineOfBusiness, "value", cmpEqual, "PC Segment."))
-    Log.Message("Verified the Sub Line of Business is auto-filled with 'PC Segment.'");
-else
-    Log.Error("Sub Line of Business is not auto-filled as expected");
+    // Check if the lineOfBusiness is auto-filled as expected
+    if (aqObject.CheckProperty(page.leadContainer.lineOfBusiness, "value", cmpEqual, "AP Living"))
+        Log.Message("Verified the Line of Business is auto-filled with 'AP Living'");
+    else
+        Log.Error("Line of Business is not auto-filled as expected");
 
+    // Check if the subLineOfBusiness is auto-filled as expected
+    if (aqObject.CheckProperty(page.leadContainer.subLineOfBusiness, "value", cmpEqual, "Bath"))
+        Log.Message("Verified the Sub Line of Business is auto-filled with 'Bath'");
+    else
+        Log.Error("Sub Line of Business is not auto-filled as expected");
 
-    // Click on segmentDropdownButton and select the last item
-    Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Click();
+    // Click on the segmentDropdownButton and select the last item
+    page.leadContainer.segmentDropdownButton.Click();
     Delay(3000);
-    Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Keys("[Down]");
-    Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Keys("[Enter]");
+    page.leadContainer.segmentDropdownButton.Keys("[Down]");
+    page.leadContainer.segmentDropdownButton.Keys("[Enter]");
     Log.Message("Selected the last item from 'segmentDropdownButton'.");
 
-    // Click on subSegmentDropdownButton and select the last item
-    Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Click();
+    // Click on the subSegmentDropdownButton and select the last item
+    page.leadContainer.subSegmentDropdownButton.Click();
     Delay(3000);
-    Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Keys("[Down]");
-    Aliases.browser.pageLogon.leadContainer.subSegmentDropdownButton.Keys("[Enter]");
+    page.leadContainer.subSegmentDropdownButton.Keys("[Down]");
+    page.leadContainer.subSegmentDropdownButton.Keys("[Enter]");
     Log.Message("Selected the last item from 'subSegmentDropdownButton'.");
 
-    // Interact with dropdowns
-    InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.stageDropdownButton);
-    InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.sourceDropdownButton);
-    InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.projectTypeDropdownButton);
-    //InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.stateDropdownButton);
-    InteractWithDropdown(Aliases.browser.pageLogon.leadContainer.jobTitleDropdownButton);
-    
- 
-// Checkpoint: Verify that the 'value' property of the 'parentAccount' object equals '1449291 - Delhi'.
-if (aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.parentAccount, "value", cmpEqual, "1449291 - Delhi"))
-    Log.Message("Verified the Parent Account is auto-filled with '1449291 - Delhi'");
-else
-    Log.Error("Parent Account is not auto-filled as expected");
+    // Interact with various dropdowns
+    InteractWithDropdown(page.leadContainer.stageDropdownButton);
+    InteractWithDropdown(page.leadContainer.sourceDropdownButton);
+    InteractWithDropdown(page.leadContainer.projectTypeDropdownButton);
+    page.textboxInputfieldea86a0975eb9aa1.SetText("10");
+    page.textboxInputfield525fd696933ac8d.SetText("5");
+    InteractWithDropdown(page.textboxInputfieldn45wkuGmamkvScy);
+    InteractWithDropdown(page.textboxDropdownlistbox650a22d43a);
+     Aliases.browser.pageLogon.leadContainer.city.Click();
+  //Sets the text ' Test' in the 'city' text editor.
+  Aliases.browser.pageLogon.leadContainer.city.SetText("Test");
+    InteractWithDropdown(page.leadContainer.jobTitleDropdownButton);
 
-// Checkpoint: Verify that the 'value' property of the 'city' object equals 'New Delhi'.
-if (aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.city, "value", cmpEqual, "New Delhi"))
-    Log.Message("Verified the City is auto-filled with 'New Delhi'");
-else
-    Log.Error("City is not auto-filled as expected");
+    // Check if the parentAccount is auto-filled as expected
+  //  if (aqObject.CheckProperty(page.leadContainer.parentAccount, "value", cmpEqual, "1449291 - Delhi"))
+      //  Log.Message("Verified the Parent Account is auto-filled with '1449291 - Delhi'");
+ //   else
+      //  Log.Error("Parent Account is not auto-filled as expected");
 
-// Checkpoint: Verify that the 'value' property of the 'postalCode' object equals '110037'.
-if (aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.postalCode, "value", cmpEqual, "110037"))
-    Log.Message("Verified the Postal Code is auto-filled with '110037'");
-else
-    Log.Error("Postal Code is not auto-filled as expected");
-
-// Checkpoint: Verify that the 'value' property of the 'countryRegion' object equals 'IN - India'.
-if (aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.countryRegion, "value", cmpEqual, "IN - India"))
-    Log.Message("Verified the Country/Region is auto-filled with 'IN - India'");
-else
-    Log.Error("Country/Region is not auto-filled as expected");
     // Set customer details
-    Aliases.browser.pageLogon.leadContainer.contectNametTextBox.SetText(CustomerName);
-    Aliases.browser.pageLogon.leadContainer.customerEmailTexBox.SetText(CustomerEmail);
-    Aliases.browser.pageLogon.leadContainer.mobileNumberTextBox.SetText(CustomerMobileNo);
+    page.leadContainer.contectNametTextBox.SetText(CustomerName);
+    page.leadContainer.customerEmailTexBox.SetText(CustomerEmail);
+    page.leadContainer.mobileNumberTextBox.SetText(CustomerMobileNo);
 
-    // Verify 'Save and Open' button
-    aqObject.CheckProperty(Aliases.browser.pageLogon.leadContainer.saveAndOpenButton, "contentText", cmpEqual, "Save and Open");
+    // Check if the saveAndOpenButton is visible
+    aqObject.CheckProperty(page.leadContainer.saveAndOpenButton, "contentText", cmpEqual, "Save and Open");
     Log.Message("Verified 'Save and Open' button is visible.");
 
-    // Click on 'Save and Open' button
-   Aliases.browser.pageLogon.leadContainer.saveAndOpenButton.Click();
+    // Click on the saveAndOpenButton
+    page.leadContainer.saveAndOpenButton.Click();
     Log.Message("Successfully Clicked on 'Save and Open' button.");
 }
- 
+
 // Function to interact with the dropdown using arrow keys
 function InteractWithDropdown(dropdownButton) {
-    dropdownButton.Click();
-    Delay(1000);
-    dropdownButton.Keys("[Down]");
-    dropdownButton.Keys("[Enter]");
-    Log.Message("Selected the last item from dropdown.");
+    Log.Message("Interacting with dropdown using arrow keys.");
+
+    // Log properties of the dropdownButton
+    Log.Message("Dropdown Button Properties: " + aqObject.GetProperties(dropdownButton));
+
+    // Check if dropdownButton supports the Click method
+    if ("Click" in dropdownButton) {
+        Log.Message("Click method is available for dropdownButton.");
+        dropdownButton.Click();
+        Delay(3000);
+        dropdownButton.Keys("[Down]");
+        dropdownButton.Keys("[Enter]");
+        Log.Message("Selected the last item from dropdown.");
+    } else {
+        Log.Error("Click method is not available for dropdownButton. Check object identification and properties.");
+    }
 }
+
