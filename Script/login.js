@@ -1,36 +1,41 @@
-﻿function Login()
-{
-  const credentials = getLoginCredential();
- 
-  //Opens the specified URL in a running instance of the specified browser.
-  Browsers.Item(btChrome).Navigate(credentials.url);
-  Aliases.browser.BrowserWindow.Maximize();
-  //Enter username
-  const username = Aliases.browser.pageHomeSapCloudForCustomer.formLoginForm.textboxUsernameFieldInner
-  username.WaitProperty('Visible',true,Project.Variables.PageLoadTimeout)
-  username.SetText(credentials.username);
-  //Enter password
-  const password = Aliases.browser.pageHomeSapCloudForCustomer.formLoginForm.passwordboxPasswordFieldInner;
-  password.WaitProperty('Visible',true,Project.Variables.Timeout);
-  password.SetText(credentials.password);
- 
-  //Clicks the 'buttonLoginLink' button.
-  const signin = Aliases.browser.pageHomeSapCloudForCustomer.formLoginForm.buttonLoginLink;
-  signin.WaitProperty('Visible',true,Project.Variables.Timeout);
-  signin.ClickButton();
-  //Revisit
-  Browsers.Item(btChrome).Navigate(credentials.url);
- 
-  //Checks Home header
-  const header = Aliases.browser.pageHomeSapCloudForCustomer.titleHomePage.WaitProperty('Visible',true,Project.Variables.PageLoadTimeout);
+﻿var JsonReader = require("JsonReader");
+var webElementWaits = require("WebElementWaits");
+
+function Login() {
+  
+    var jsonFilePath = "TestData\\Data.json";
+    var jsonData = JsonReader.readJsonFile(jsonFilePath);
+    var jsonUrl = jsonData.url;
+    var username = jsonData.username;
+    var password = jsonData.password;
+    
+    Browsers.Item(btChrome).Navigate(jsonUrl);
+    Log.Message("Navigated to URL: " + jsonUrl);    
+    Aliases.browser.pageLogon.Wait();
+    Aliases.browser.BrowserWindow.Maximize();
+    
+    Aliases.browser.pageLogon.loginForm.userNameBox.SetText(username);
+    Log.Message("Entered username: " + username);
+    Aliases.browser.pageLogon.loginForm.passwordBox.SetText(password);
+    Log.Message("Entered password:" + password);
+    
+    webElementWaits.waitForElementVisible(Aliases.browser.pageLogon.loginForm.signInButton).ClickButton();
+    Log.Message("Verified that the user is able to login with the valid credentials.");
+
+    // Wait for the menu button to become visible
+    var menuButton = Aliases.browser.pageLogon.homePage.menuButton;
+    if (menuButton.Exists) {
+        menuButton.Click();
+        Log.Message("Verified that Menu button is visible on the screen.");
+    } else {
+        Log.Message("Menu button is not visible. Refreshing the page and clicking on the button.");
+        
+   Aliases.browser.pageLogon.Keys("[F5]");
+   
+   webElementWaits.waitForElementVisible(Aliases.browser.pageLogon.confirmResubmission.continueButton).Click();
+
+   aqObject.CheckProperty(Aliases.browser.pageLogon.homePage.menuButton, "contentText", cmpEqual, "");
+   Log.Message("Verified that after login to the application user redirects to the Home screen");
+    }
 }
- 
-function getLoginCredential()
-{
-  var excelFile = Excel.Open("TestData\\Login.xlsx");
-  var excelSheet = excelFile.SheetByTitle("Login");
-  var url = excelSheet.CellByName("A2").Value;
-  var username = excelSheet.CellByName("B2").Value;
-  var password = excelSheet.CellByName("C2").Value;
-  return {url:url,username:username,password:password};
-}
+module.exports.Login = Login;

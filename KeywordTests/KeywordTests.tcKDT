@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
-		<folder name="Login_Page">
-			<child name="loginTest" key="{755D611A-6B8B-45B9-8C69-ADBACCBF84C4}" path="loginTest.tcKDTest" />
-		</folder>
-		<folder name="Home_Page">
-			<child name="menuValidation" key="{7DD53CB0-CC16-4F3B-98C3-F4B33038E805}" path="menuValidation.tcKDTest" />
-		</folder>
-		<folder name="Lead_Page">
-			<child name="leadCreation" key="{4AAE984D-D13E-4F22-8C7E-EA9B541612DB}" path="leadCreation.tcKDTest" />
-		</folder>
-		<folder name="segment _Validation">
-			<child name="segment" key="{F309CC44-2A68-49BD-BC93-B9439803660E}" path="segment.tcKDTest" />
-		</folder>
-		<folder name="SubSegment_Validation">
-			<child name="subsegment" key="{311B9549-3C43-49B2-8F3A-D31F06BCA329}" path="subsegment.tcKDTest" />
-		</folder>
-		<child name="Bath" key="{340C0BD7-F6D6-4CEF-A9B5-C65C54128AF0}" path="Bath.tcKDTest" />
+		<child name="Test3" key="{2F77DE2C-3E44-4BB8-A74A-8306512E4307}" path="Test3.tcKDTest" />
 	</children>
 </Root>

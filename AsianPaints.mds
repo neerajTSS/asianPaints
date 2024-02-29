@@ -9,40 +9,40 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{12B79B5D-5198-449E-A2AD-73B6DB0C714E}" version="14">
 		<children>
-			<testItem name="Login_Page" key="{710EEBE2-F263-419B-ADED-EF093C588702}" group="False" parallel="False" enabled="True" testMoniker="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}Login_Page" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Bath" key="{9AB02D64-4771-4437-8547-EE9C5F3F64C2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="Home_Page" key="{EF6B8176-EF2B-4C5E-9096-6740B80FF392}" group="False" parallel="False" enabled="True" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}Home_Page" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="CheckMenuLink" key="{339F20B1-FA47-4739-87BD-58A8B1FDF09C}" group="False" parallel="False" enabled="True" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}CheckMenuLink" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="linkName" type="3" localVarName="" varType="0" value="" />
-					<param1 name="linkObject" type="3" localVarName="" varType="0" value="" />
-				</testParameters>
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="subsegment" key="{CF152001-B8DD-41AF-BDEF-24B9C0CD369E}" group="False" parallel="False" enabled="True" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}subsegment" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="Lead_Page" key="{0DAE942A-25AE-499F-BE3F-45B64D323E4A}" group="False" parallel="False" enabled="True" testMoniker="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}Lead_Page" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="InteractWithDropdown" key="{8549E775-0A37-4123-BB00-8A293EDF183A}" group="False" parallel="False" enabled="True" testMoniker="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}InteractWithDropdown" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="dropdownButton" type="3" localVarName="" varType="0" value="" />
-				</testParameters>
-				<environments activeCloud="CBT" />
-				<children />
+				<children>
+					<testItem name="verifyLoginWithValidCredencials" key="{139F05E1-54CD-41B0-84C9-B77818BDF9EB}" group="False" parallel="False" enabled="True" testMoniker="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}verifyLoginWithValidCredencials" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="verifyHomePageElements" key="{F793D038-3ED2-4A99-92E0-DD043FD948D7}" group="False" parallel="False" enabled="True" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}verifyHomePageElements" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="verifyUserAbleToCreateNewLead" key="{D484A729-4092-4397-8306-7EEFB2D6991B}" group="False" parallel="False" enabled="True" testMoniker="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}verifyUserAbleToCreateNewLead" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="verifyUserAbleToConvertProjectCard" key="{03F34430-7EB3-4B43-AFFE-B6BF98387F1A}" group="False" parallel="False" enabled="True" testMoniker="{D91BEEE8-1422-404E-BC54-45C366F0B662}verifyUserAbleToConvertProjectCard" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="verifyUserAbleToDoQuoteAndPRFWithApproval" key="{2A2EF2D7-F15C-47CC-8AB9-36D56DCE080F}" group="False" parallel="False" enabled="True" testMoniker="{82A7D414-9F45-4272-8237-67FBE6EE57ED}verifyUserAbleToDoQuoteAndPRFWithApproval" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="doLogOut_2" key="{AEC75273-C840-400D-B12D-9C30D9D5262A}" group="False" parallel="False" enabled="False" testMoniker="{08413206-A709-431C-AE8A-748B97246902}doLogOut" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>

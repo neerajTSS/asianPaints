@@ -8,19 +8,26 @@
     // Parse the JSON content into an object
     return JSON.parse(jsonContent);
 }
-
+var JsonReader = require("JsonReader");
+var ExcelReader = require("ReadDataFromExcel");
+var webElementWaits = require("WebElementWaits");
 var excelDriverExecuted = false; // Declare the flag outside the function
 
 function validateElementsWithExcel() {
+   var jsonFilePath = "Data.json";
+    var jsonData = JsonReader.readJsonFile(jsonFilePath);
+    var path = jsonData.Excelpath;
+    var sheetName = jsonData.ExcelSheetName;
+    var ExcelData = ExcelReader.readDataUsingHeaderFromExcel(path, sheetName, rowIndex = 2);
   
-    var jsonFilePath = "TestData\\Data.json";
-    // Retrieve username, password, and URL from JSON file
-    var jsonData = readJsonFile(jsonFilePath);
-    var excelpath = jsonData.Excelpath;
-    var sheetname = jsonData.ExcelSheetName;
-    var segment = jsonData.SegmentItemName;
-    // Load Excel driver for segments
-    var excelDriverSegments = DDT.ExcelDriver(excelpath,sheetname);
+//    var jsonFilePath = "TestData\\Data.json";
+//    Retrieve username, password, and URL from JSON file
+//    var jsonData = readJsonFile(jsonFilePath);
+//    var excelpath = jsonData.Excelpath;
+//  var sheetname = jsonData.SegmentSheetName;
+//    var segment = jsonData.SegmentItemName;
+//    // Load Excel driver for segments
+    var excelDriverSegments = DDT.ExcelDriver(path,sheetName);
     var excelValuesSegments = [];
     // Check if validation has already been performed for segments
     if (excelDriverExecuted) {
@@ -28,6 +35,7 @@ function validateElementsWithExcel() {
         return;
     }
     // Click on the segment dropdown button
+    var segment = "Energy";
     Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Click();
     var segmentElement = Aliases.browser.pageLogon.FindElement("//li[contains(@class,'sapMSLI') and .//div[@class='sapMSLITitleOnly' and contains(text(),'" + segment + "')]]");
     segmentElement.Click();
@@ -48,6 +56,7 @@ function validateElementsWithExcel() {
     // Iterate through segment elements
     for (var i = 0; i < subsegmentElements.length; i++) {
         var elementTextSegment = subsegmentElements[i].contentText;
+        Log.Message("elements" + elementTextSegment);
 
         // Flag to check if the element text is found in Excel
         var foundSegment = false;

@@ -1,6 +1,6 @@
 ﻿var excelDriverExecuted = false; // Declare the flag outside the function
 
-function validateElementsWithExcel(segment) {
+function validateElementsWithExcel() {
     // Load Excel driver for segments
     var excelDriverSegments = DDT.ExcelDriver("C:\\Users\\ChinnamaniG\\Desktop\\AsianPaintData.xlsx", "Infra");
     var excelValuesSegments = [];
@@ -15,7 +15,7 @@ function validateElementsWithExcel(segment) {
 
     // Click on the segment dropdown button
     Aliases.browser.pageLogon.leadContainer.segmentDropdownButton.Click();
-     var segment="(New Projects)";
+     var segment="1001 - Ports";
 
     var segmentElement = Aliases.browser.pageLogon.FindElement("//*[@id='dropdownlistbox8d1033a88ed231847248f1761eeea1c7_5202-popup-list-listUl']/li/div/div/div[contains(text(),'" + segment + "')]");
     segmentElement.Click();

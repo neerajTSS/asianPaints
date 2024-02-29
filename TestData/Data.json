@@ -3,6 +3,7 @@
   "username": "PSO_BATH",
   "password": "Welcome@01",
   "Excelpath": "C:\\Users\\ChinnamaniG\\Desktop\\AsianPaintData.xlsx",
-  "ExcelSheetName": "Sheet1"
-  
+  "ExcelSheetName2": "Sheet1",
+  "ExcelSheetName": "BathEnergy"
+
 }
