@@ -12,32 +12,32 @@
 			<testItem name="Bath" key="{9AB02D64-4771-4437-8547-EE9C5F3F64C2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="verifyLoginWithValidCredencials" key="{139F05E1-54CD-41B0-84C9-B77818BDF9EB}" group="False" parallel="False" enabled="True" testMoniker="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}verifyLoginWithValidCredencials" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="verifyLoginWithValidCredencials" key="{139F05E1-54CD-41B0-84C9-B77818BDF9EB}" group="False" parallel="False" enabled="False" testMoniker="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}verifyLoginWithValidCredencials" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="verifyHomePageElements" key="{F793D038-3ED2-4A99-92E0-DD043FD948D7}" group="False" parallel="False" enabled="True" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}verifyHomePageElements" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="verifyHomePageElements" key="{F793D038-3ED2-4A99-92E0-DD043FD948D7}" group="False" parallel="False" enabled="False" testMoniker="{2237AD35-0AE6-434C-9D23-47903E514ADD}verifyHomePageElements" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="verifyUserAbleToCreateNewLead" key="{D484A729-4092-4397-8306-7EEFB2D6991B}" group="False" parallel="False" enabled="True" testMoniker="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}verifyUserAbleToCreateNewLead" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="verifyUserAbleToCreateNewLead" key="{D484A729-4092-4397-8306-7EEFB2D6991B}" group="False" parallel="False" enabled="False" testMoniker="{D8BB38E7-FEA0-4880-AE7B-6AD30E13D627}verifyUserAbleToCreateNewLead" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="verifyUserAbleToConvertProjectCard" key="{03F34430-7EB3-4B43-AFFE-B6BF98387F1A}" group="False" parallel="False" enabled="True" testMoniker="{D91BEEE8-1422-404E-BC54-45C366F0B662}verifyUserAbleToConvertProjectCard" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="verifyUserAbleToConvertProjectCard" key="{03F34430-7EB3-4B43-AFFE-B6BF98387F1A}" group="False" parallel="False" enabled="False" testMoniker="{D91BEEE8-1422-404E-BC54-45C366F0B662}verifyUserAbleToConvertProjectCard" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="verifyUserAbleToDoQuoteAndPRFWithApproval" key="{2A2EF2D7-F15C-47CC-8AB9-36D56DCE080F}" group="False" parallel="False" enabled="True" testMoniker="{82A7D414-9F45-4272-8237-67FBE6EE57ED}verifyUserAbleToDoQuoteAndPRFWithApproval" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="verifyUserAbleToDoQuoteAndPRFWithApproval" key="{2A2EF2D7-F15C-47CC-8AB9-36D56DCE080F}" group="False" parallel="False" enabled="False" testMoniker="{82A7D414-9F45-4272-8237-67FBE6EE57ED}verifyUserAbleToDoQuoteAndPRFWithApproval" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="doLogOut_2" key="{AEC75273-C840-400D-B12D-9C30D9D5262A}" group="False" parallel="False" enabled="False" testMoniker="{08413206-A709-431C-AE8A-748B97246902}doLogOut" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="doLogOut" key="{F54BD27D-5B12-4ADD-B521-40CA2B1227CE}" group="False" parallel="False" enabled="False" testMoniker="{FD1826CB-40A8-46AD-9FB1-A0EFBDF4F50A}doLogOut" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -188,6 +188,9 @@
 				</Variable>
 				<Variable Name="Password10" Type="Password" Local="False">
 					<DefValue StrValue="380039003600310039003300440030004600340044003800340042004600370045004300390041004300370039003600350041004600420045003300310043003000430042003300310032003600430038004400360031003100430035004300410043004200460042003100" />
+				</Variable>
+				<Variable Name="URL" Type="String" Local="True">
+					<DefValue StrValue="&#32;&#32;https://my349520.crm.ondemand.com/sap/ap/ui/clogin?saml2=disabled&amp;app.component=/SAP_UI_CT/Main/root.uiccwoc&amp;rootWindow=X&amp;redirectUrl=/sap/public/byd/runtime.??B64??.:DQo=:.??B64??." />
 				</Variable>
 			</Items>
 		</data>

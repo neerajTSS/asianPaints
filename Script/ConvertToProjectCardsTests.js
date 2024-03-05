@@ -3,6 +3,6 @@
 function verifyUserAbleToConvertProjectCard()
 {
   
-ProjectCards.ConvertToProjectCardPage();
+ProjectCards.ConvertToProjectCard();
 
 }

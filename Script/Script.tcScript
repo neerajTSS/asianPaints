@@ -25,6 +25,9 @@
 			<child name="ConvertToProjectCard" key="{C8BF211E-BB15-4253-AA19-BE309BD2B83B}" path="ConvertToProjectCard.js" />
 			<child name="QuoteAndPRF" key="{F21ED30F-09EA-4F40-A8C4-6CC9E9C451F3}" path="QuoteAndPRF.js" />
 			<child name="Logout" key="{08413206-A709-431C-AE8A-748B97246902}" path="Logout.js" />
+			<child name="WorkflowUtility" key="{1E98968C-4ECD-43A8-B2AA-3CAC8F5FD848}" path="WorkflowUtility.js" />
+			<child name="Quote" key="{5878DFA1-BC1D-4FEE-A995-61161754401A}" path="Quote.js" />
+			<child name="Approvals" key="{2BCC8925-D61B-4D42-9E54-A9C019B58E32}" path="Approvals.js" />
 		</folder>
 		<folder name="TestScripts">
 			<child name="LoginTests" key="{88E7A1C0-46DA-4F93-B9CC-636EC7FFBE22}" path="LoginTests.js" />
@@ -34,6 +37,8 @@
 			<child name="QuoteAndPRFTests" key="{82A7D414-9F45-4272-8237-67FBE6EE57ED}" path="QuoteAndPRFTests.js" />
 			<child name="LogoutTests" key="{FD1826CB-40A8-46AD-9FB1-A0EFBDF4F50A}" path="LogoutTests.js" />
 			<child name="SubSegmentValidation" key="{AA7644D1-7D9D-4B90-BFE3-E49A28E3A7EC}" path="SubSegmentValidation.js" />
+			<child name="QuoteTests" key="{8549CA7B-2F3E-4365-87E7-244A14A22337}" path="QuoteTests.js" />
+			<child name="ApprovalsTests" key="{04FE9250-C6EA-4392-9B93-34CB73262BB9}" path="ApprovalsTests.js" />
 		</folder>
 	</children>
 </Root>

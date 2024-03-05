@@ -2,5 +2,5 @@
 
 function verifyLoginWithValidCredencials()
 {
-  LoginPage.Login(); 
+  LoginPage.doLogin("PSO_BATH","Welcome@01");
 }

@@ -42,7 +42,7 @@ function LeadCreation() {
     page.leadContainer.searchSiteButton.ClickButton();
     
     var checkBox = page.leadContainer.addressCheckBox;
-    webElementWaits.waitForElementVisible(checkBox).Click();
+    webElementWaits.waitForElementVisible(checkBox,20000).Click();
     Log.Message("Clicked on 'addressCheckBox'.");
 
     aqObject.CheckProperty(page.leadContainer.lineOfBusiness, "value", cmpEqual, "AP Living");    
@@ -68,6 +68,13 @@ function LeadCreation() {
     Log.Message("Verified 'Save and Open' button is visible.");
     page.leadContainer.saveAndOpenButton.Click();
     Log.Message("Successfully Clicked on 'Save and Open' button.");
+    
+     var container = Aliases.browser.pageLogon.leadContainer;
+    
+  aqObject.CheckProperty(container.buttonActions, "contentText", cmpEqual, "Actions");
+  Aliases.browser.pageLogon.Keys("[F5]");
+  Delay(10000);
+  webElementWaits.waitForElementVisible(container.buttonActions).ClickButton();
 }
 
 // Function to interact with the dropdown using arrow keys
@@ -86,5 +93,8 @@ function InteractWithDropdown(dropdownButton) {
     } else {
         Log.Error("Click method is not available for dropdownButton. Check object identification and properties.");
     }
+    
+   
+  
 }
 module.exports.LeadCreation = LeadCreation;
